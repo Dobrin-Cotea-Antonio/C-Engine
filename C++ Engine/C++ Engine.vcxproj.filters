@@ -46,6 +46,9 @@
     <Filter Include="Engine\Scene">
       <UniqueIdentifier>{c84ce0b1-023d-4deb-8b38-ecce1c26af9c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Engine\SceneManager">
+      <UniqueIdentifier>{c2cefa6c-cad1-4c4e-9f6e-ca1ec37a7116}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -82,7 +85,10 @@
       <Filter>Engine\AnimatedSpriteRenderer</Filter>
     </ClCompile>
     <ClCompile Include="Base\Scene.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\SceneManager.cpp">
+      <Filter>Engine\SceneManager</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -118,6 +124,9 @@
     </ClInclude>
     <ClInclude Include="Base\Scene.h">
       <Filter>Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\SceneManager.h">
+      <Filter>Engine\SceneManager</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

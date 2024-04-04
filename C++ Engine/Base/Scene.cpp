@@ -21,6 +21,15 @@ void Scene::Update() {
 			objects[i]->Update();
 }
 
+void Scene::DestroyObjects() {
+	for (int i = objects.size() - 1; i >= 0; i--) {
+		if (objects[i]->GetDestroyStatus()) {
+			objects[i].reset();//might cause memory leak
+			objects.erase(objects.begin() + i);
+		}
+	}
+}
+
 void Scene::render() const {
 	for (int i = 0; i < objects.size(); i++)
 		if (objects[i]->IsEnabledGlobal())
@@ -32,24 +41,15 @@ void Scene::render() const {
 void Scene::CreateLevel() {
 }
 
-void Scene::DestroyObjects() {
-	for (int i = objects.size() - 1; i >= 0; i--) {
-		if (objects[i]->GetDestroyStatus()) {
-			objects[i].reset();//might cause memory leak
-			objects.erase(objects.begin() + i);
-		}
-	}
-}
-
 void Scene::DestroyScene() {
 	objects.clear();//might cause memory leak
 }
 
-void Scene::SetLoadScene(std::function<void(std::string pScene)> pLoadScene){
+void Scene::SetLoadScene(std::function<void(std::string pScene)> pLoadScene) {
 	loadScene = pLoadScene;
 }
 
-void Scene::LoadScene(const std::string pScene){
+void Scene::LoadScene(const std::string pScene) {
 	loadScene(pScene);
 }
 #pragma endregion

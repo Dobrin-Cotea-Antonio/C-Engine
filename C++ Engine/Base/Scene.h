@@ -21,12 +21,15 @@ public:
 #pragma endregion
 
 #pragma region Runtime
+protected:
 	virtual void update();
 	virtual void Update();
+	void DestroyObjects();
 	void render()const;
 #pragma endregion
 
 #pragma region Instantiate Template
+public:
 	template<typename T, typename = std::enable_if_t<std::is_base_of<GameObject, T>::value>>
 	std::weak_ptr<T> InstantiateTemplate() {
 		objects.push_back(std::shared_ptr<T>(new T()));
@@ -38,7 +41,6 @@ public:
 
 #pragma region Scene Functionality
 	virtual void CreateLevel();
-	void DestroyObjects();
 	void DestroyScene();
 	void SetLoadScene(std::function<void(std::string pScene)> pLoadScene);
 
