@@ -7,6 +7,8 @@
 //class Scene;
 
 class SceneManager {
+	friend class Game;
+
 private:
 	std::map<std::string, std::shared_ptr<Scene>> scenes;
 	std::string activeScene;
@@ -17,7 +19,7 @@ public:
 
 #pragma region Constructor/Destructor
 	SceneManager();
-	~SceneManager();
+	virtual ~SceneManager();
 #pragma endregion
 
 #pragma region Deleted Methods
@@ -53,8 +55,8 @@ private:
 #pragma region Helper Methods
 public:
 	void EnableScene(const std::string pID);
-	const std::string GetActiveScene();
-	const static SceneManager* GetInstance();
+	std::string GetActiveScene();
+	static SceneManager* GetInstance();
 #pragma endregion
 
 };

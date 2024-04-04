@@ -16,7 +16,7 @@ private:
 protected:
 #pragma region Constructor/Destructor
 	TextureCache();
-	~TextureCache();
+	virtual ~TextureCache();
 #pragma endregion
 
 public:

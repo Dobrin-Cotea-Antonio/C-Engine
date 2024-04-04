@@ -14,7 +14,7 @@ protected:
 
 #pragma region Constructor/Destructor
 	TimeClass();
-	~TimeClass();
+	virtual ~TimeClass();
 #pragma endregion
 
 public:

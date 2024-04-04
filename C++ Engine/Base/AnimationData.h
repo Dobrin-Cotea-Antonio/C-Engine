@@ -12,7 +12,7 @@ public:
 #pragma region Constructor/Destructor
 	AnimationData();
 	AnimationData(const int pCols, const int pRows, const int pFrames, const float pAnimationSpeed);
-	~AnimationData();
+	virtual ~AnimationData();
 #pragma endregion
 
 };

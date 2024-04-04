@@ -1,5 +1,10 @@
 ﻿  Scanning sources for module dependencies...
-  SceneManager.cpp
+  Game.cpp
   Compiling...
-  SceneManager.cpp
+  Game.cpp
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Vec2.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Base/Game.cpp')
+  
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Game.cpp(13,72): warning C4244: 'argument': conversion from 'const float' to 'unsigned int', possible loss of data
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Game.cpp(13,57): warning C4244: 'argument': conversion from 'const float' to 'unsigned int', possible loss of data
   C++ Engine.vcxproj -> C:\Users\anton\Documents\GitHub\C-Engine\x64\Debug\C++ Engine.exe

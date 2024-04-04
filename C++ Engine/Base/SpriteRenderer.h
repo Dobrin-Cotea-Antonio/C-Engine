@@ -11,7 +11,7 @@ protected:
 public:
 #pragma region Constructor/Destructor
 	SpriteRenderer();
-	~SpriteRenderer();
+	virtual ~SpriteRenderer();
 #pragma endregion
 
 #pragma region Sprite

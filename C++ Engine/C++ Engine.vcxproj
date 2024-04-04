@@ -133,6 +133,7 @@
     <ClCompile Include="Base\AnimatedSpriteRenderer.cpp" />
     <ClCompile Include="Base\AnimationData.cpp" />
     <ClCompile Include="Base\Component.cpp" />
+    <ClCompile Include="Base\Game.cpp" />
     <ClCompile Include="Base\GameObject.cpp" />
     <ClCompile Include="Base\Object.cpp" />
     <ClCompile Include="Base\Scene.cpp" />
@@ -142,6 +143,7 @@
     <ClCompile Include="Base\TimeClass.cpp" />
     <ClCompile Include="Base\Transform.cpp" />
     <ClCompile Include="Base\Vec2.cpp" />
+    <ClCompile Include="Game\MyGame.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -149,6 +151,7 @@
     <ClInclude Include="Base\AnimationData.h" />
     <ClInclude Include="Base\Component.h" />
     <ClInclude Include="Base\GameObject.h" />
+    <ClInclude Include="Base\Game.h" />
     <ClInclude Include="Base\Scene.h" />
     <ClInclude Include="Base\SceneManager.h" />
     <ClInclude Include="Base\SpriteRenderer.h" />
@@ -157,6 +160,7 @@
     <ClInclude Include="Base\TimeClass.h" />
     <ClInclude Include="Base\Transform.h" />
     <ClInclude Include="Base\Vec2.h" />
+    <ClInclude Include="Game\MyGame.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

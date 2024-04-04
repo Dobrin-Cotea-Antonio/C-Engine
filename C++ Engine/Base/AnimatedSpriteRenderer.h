@@ -20,7 +20,7 @@ protected:
 public:
 #pragma region Constructor/Destructor
 	AnimatedSpriteRenderer();
-	~AnimatedSpriteRenderer();
+	virtual ~AnimatedSpriteRenderer();
 #pragma endregion
 
 #pragma region Sprite

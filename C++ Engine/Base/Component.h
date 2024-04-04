@@ -20,7 +20,7 @@ public:
 
 #pragma region Constructor/Destructor
 	Component();
-	~Component();
+	virtual ~Component();
 #pragma endregion
 
 #pragma region Runtime

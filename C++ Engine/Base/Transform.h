@@ -10,7 +10,7 @@ public:
 public:
 #pragma region Constructor/Destructor
 	Transform();
-	~Transform();
+	virtual ~Transform();
 #pragma endregion
 
 #pragma region Global Values

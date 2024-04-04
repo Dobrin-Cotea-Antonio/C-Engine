@@ -17,7 +17,7 @@ private:
 public:
 #pragma region Constructor/Destructor
 	Scene(const std::string pID);
-	~Scene();
+	virtual ~Scene();
 #pragma endregion
 
 #pragma region Runtime

@@ -37,11 +37,11 @@ void SceneManager::EnableScene(const std::string pID){
 	scenes[activeScene]->CreateLevel();
 }
 
-const std::string SceneManager::GetActiveScene(){
+std::string SceneManager::GetActiveScene(){
 	return activeScene;
 }
 
-const SceneManager* SceneManager::GetInstance(){
+SceneManager* SceneManager::GetInstance(){
 	if (instance == nullptr)
 		instance = new SceneManager();
 	return instance;

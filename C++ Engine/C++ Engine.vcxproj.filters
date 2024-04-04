@@ -49,6 +49,12 @@
     <Filter Include="Engine\SceneManager">
       <UniqueIdentifier>{c2cefa6c-cad1-4c4e-9f6e-ca1ec37a7116}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Engine\Game">
+      <UniqueIdentifier>{812da712-7370-416a-bc2f-279e5ceb5b83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{52057cdb-67f9-4c7e-9b02-86a36f1f34cc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -90,6 +96,12 @@
     <ClCompile Include="Base\SceneManager.cpp">
       <Filter>Engine\SceneManager</Filter>
     </ClCompile>
+    <ClCompile Include="Base\Game.cpp">
+      <Filter>Engine\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\MyGame.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Base\GameObject.h">
@@ -127,6 +139,12 @@
     </ClInclude>
     <ClInclude Include="Base\SceneManager.h">
       <Filter>Engine\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\Game.h">
+      <Filter>Engine\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\MyGame.h">
+      <Filter>Game</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
