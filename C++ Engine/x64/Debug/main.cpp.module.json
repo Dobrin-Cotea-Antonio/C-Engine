@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\main.obj",
+            "outputs": [
+                "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C++ Engine\\x64\\Debug\\vc143.pdb",
+                "x64\\Debug\\"
+            ],
+            "requires": []
+        }
+    ]
+}

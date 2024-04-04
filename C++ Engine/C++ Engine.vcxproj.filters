@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{0a6847f0-f12e-4e58-a108-77884544aba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameObject">
+      <UniqueIdentifier>{929fe83f-7cc5-4967-9d61-3a42c45fcd43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Object">
+      <UniqueIdentifier>{35c56d62-ebfb-454c-9b35-5dbaededeb60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component">
+      <UniqueIdentifier>{e880023c-daa4-4203-ae6c-cef527895b58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Transform">
+      <UniqueIdentifier>{b4d9eed7-9696-46e9-8704-34cd3f738f5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Vec2">
+      <UniqueIdentifier>{4aec14da-7dab-41ef-b332-aa951842a7ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\SpriteRenderer">
+      <UniqueIdentifier>{9044f9d3-e409-401d-a17f-e5d5f73e11a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\TimeClass">
+      <UniqueIdentifier>{c0efa380-cc2c-417f-ad0e-ffb514dee837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\AnimatedSpriteRenderer">
+      <UniqueIdentifier>{0379d811-5a5d-4684-b2a8-19d89042c6b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\TextureCache">
+      <UniqueIdentifier>{3eeef1a9-f1b5-4c85-9e08-c2df6737aa0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Scene">
+      <UniqueIdentifier>{c84ce0b1-023d-4deb-8b38-ecce1c26af9c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\Component.cpp">
+      <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\GameObject.cpp">
+      <Filter>Engine\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\Object.cpp">
+      <Filter>Engine\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\Vec2.cpp">
+      <Filter>Engine\Vec2</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\Transform.cpp">
+      <Filter>Engine\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\TextureCache.cpp">
+      <Filter>Engine\TextureCache</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\SpriteRenderer.cpp">
+      <Filter>Engine\SpriteRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\TimeClass.cpp">
+      <Filter>Engine\TimeClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\AnimationData.cpp">
+      <Filter>Engine\AnimatedSpriteRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\AnimatedSpriteRenderer.cpp">
+      <Filter>Engine\AnimatedSpriteRenderer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Base\GameObject.h">
+      <Filter>Engine\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\Object.h">
+      <Filter>Engine\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\Component.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\Transform.h">
+      <Filter>Engine\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\Vec2.h">
+      <Filter>Engine\Vec2</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\SpriteRenderer.h">
+      <Filter>Engine\SpriteRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\TextureCache.h">
+      <Filter>Engine\TextureCache</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\TimeClass.h">
+      <Filter>Engine\TimeClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\AnimatedSpriteRenderer.h">
+      <Filter>Engine\AnimatedSpriteRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\AnimationData.h">
+      <Filter>Engine\AnimatedSpriteRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\Scener.h">
+      <Filter>Engine\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,85 @@
+﻿  Scanning sources for module dependencies...
+  Component.cpp
+  AnimationData.cpp
+  Object.cpp
+  TimeClass.cpp
+  main.cpp
+  Vec2.cpp
+  Transform.cpp
+  GameObject.cpp
+  AnimatedSpriteRenderer.cpp
+  TextureCache.cpp
+  SpriteRenderer.cpp
+  Compiling...
+  GameObject.cpp
+  TimeClass.cpp
+  TextureCache.cpp
+  Component.cpp
+  AnimationData.cpp
+  SpriteRenderer.cpp
+  AnimatedSpriteRenderer.cpp
+  Object.cpp
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Vec2.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Transform.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Base/AnimatedSpriteRenderer.cpp')
+  
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\AnimatedSpriteRenderer.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Base/AnimatedSpriteRenderer.cpp')
+  
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\AnimatedSpriteRenderer.cpp(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\AnimatedSpriteRenderer.cpp(56,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\AnimatedSpriteRenderer.cpp(57,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\AnimatedSpriteRenderer.cpp(59,52): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\AnimatedSpriteRenderer.cpp(59,52): warning C4244:         with
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\AnimatedSpriteRenderer.cpp(59,52): warning C4244:         [
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\AnimatedSpriteRenderer.cpp(59,52): warning C4244:             T=int
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\AnimatedSpriteRenderer.cpp(59,52): warning C4244:         ]
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\AnimatedSpriteRenderer.cpp(59,39): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\AnimatedSpriteRenderer.cpp(59,39): warning C4244:         with
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\AnimatedSpriteRenderer.cpp(59,39): warning C4244:         [
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\AnimatedSpriteRenderer.cpp(59,39): warning C4244:             T=int
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\AnimatedSpriteRenderer.cpp(59,39): warning C4244:         ]
+  (compiling source file 'Base/SpriteRenderer.cpp')
+  
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Transform.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Base/SpriteRenderer.cpp')
+  
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Vec2.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Base/SpriteRenderer.cpp')
+  
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\SpriteRenderer.cpp(21,52): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\SpriteRenderer.cpp(21,52): warning C4244:         with
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\SpriteRenderer.cpp(21,52): warning C4244:         [
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\SpriteRenderer.cpp(21,52): warning C4244:             T=unsigned int
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\SpriteRenderer.cpp(21,52): warning C4244:         ]
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\SpriteRenderer.cpp(21,33): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\SpriteRenderer.cpp(21,33): warning C4244:         with
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\SpriteRenderer.cpp(21,33): warning C4244:         [
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\SpriteRenderer.cpp(21,33): warning C4244:             T=unsigned int
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\SpriteRenderer.cpp(21,33): warning C4244:         ]
+  Transform.cpp
+  Vec2.cpp
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Transform.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Base/Transform.cpp')
+  
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Transform.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Base/Transform.cpp')
+  
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Vec2.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Base/Transform.cpp')
+  
+  main.cpp
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Vec2.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\main.cpp(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Base/Vec2.cpp')
+  
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Vec2.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Vec2.cpp(109,9): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Vec2.cpp(113,9): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Vec2.cpp(151,9): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\main.cpp(6,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Vec2.cpp(176,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Vec2.cpp(178,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  C++ Engine.vcxproj -> C:\Users\anton\Documents\GitHub\C-Engine\x64\Debug\C++ Engine.exe
