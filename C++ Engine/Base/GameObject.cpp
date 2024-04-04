@@ -1,4 +1,5 @@
 #include "GameObject.h"
+#include "Component.h"
 
 #pragma region Constructor/Destructor
 GameObject::GameObject() {
@@ -28,11 +29,32 @@ void GameObject::RemoveParent() {
 }
 #pragma endregion
 
+#pragma region Runtime
+void GameObject::update() {
+	for (int i = 0; i < components.size(); i++)
+		if (components[i].lock()->IsEnabledGlobal())
+			components[i].lock()->update();
+}
+
+void GameObject::Update() {
+	for (int i = 0; i < components.size(); i++)
+		if (components[i].lock()->IsEnabledGlobal())
+			components[i].lock()->Update();
+}
+
+void GameObject::render(){
+	for (int i = 0; i < components.size(); i++)
+		if (components[i].lock()->IsEnabledGlobal())
+			components[i].lock()->render();
+}
+#pragma endregion
+
 #pragma region Utility
 bool GameObject::IsEnabledGlobal() {
 	if (parent.lock() == nullptr) {
 		return isEnabled;
-	} else {
+	}
+	else {
 		return (isEnabled && parent.lock()->IsEnabledGlobal());
 	}
 }

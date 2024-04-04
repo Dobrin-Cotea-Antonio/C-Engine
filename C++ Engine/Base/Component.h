@@ -26,7 +26,7 @@ public:
 #pragma region Runtime
 	virtual void Update();
 	virtual void update();
-	//virtual void Draw(sf::RenderWindow& pWindow); should be in a renderer component
+	virtual void render();
 #pragma endregion
 
 #pragma region State

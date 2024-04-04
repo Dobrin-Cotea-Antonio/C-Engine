@@ -135,6 +135,7 @@
     <ClCompile Include="Base\Component.cpp" />
     <ClCompile Include="Base\GameObject.cpp" />
     <ClCompile Include="Base\Object.cpp" />
+    <ClCompile Include="Base\Scene.cpp" />
     <ClCompile Include="Base\SpriteRenderer.cpp" />
     <ClCompile Include="Base\TextureCache.cpp" />
     <ClCompile Include="Base\TimeClass.cpp" />
@@ -147,7 +148,7 @@
     <ClInclude Include="Base\AnimationData.h" />
     <ClInclude Include="Base\Component.h" />
     <ClInclude Include="Base\GameObject.h" />
-    <ClInclude Include="Base\Scener.h" />
+    <ClInclude Include="Base\Scene.h" />
     <ClInclude Include="Base\SpriteRenderer.h" />
     <ClInclude Include="Base\Object.h" />
     <ClInclude Include="Base\TextureCache.h" />

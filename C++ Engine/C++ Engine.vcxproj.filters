@@ -81,6 +81,9 @@
     <ClCompile Include="Base\AnimatedSpriteRenderer.cpp">
       <Filter>Engine\AnimatedSpriteRenderer</Filter>
     </ClCompile>
+    <ClCompile Include="Base\Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Base\GameObject.h">
@@ -113,7 +116,7 @@
     <ClInclude Include="Base\AnimationData.h">
       <Filter>Engine\AnimatedSpriteRenderer</Filter>
     </ClInclude>
-    <ClInclude Include="Base\Scener.h">
+    <ClInclude Include="Base\Scene.h">
       <Filter>Engine\Scene</Filter>
     </ClInclude>
   </ItemGroup>

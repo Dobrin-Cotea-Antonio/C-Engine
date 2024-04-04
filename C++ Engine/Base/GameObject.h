@@ -30,6 +30,12 @@ public:
 	void RemoveParent();
 #pragma endregion
 
+#pragma region Runtime
+	void update();
+	void Update();
+	void render();
+#pragma endregion
+
 #pragma region Utility
 	bool IsEnabledGlobal() override;
 #pragma endregion
@@ -39,7 +45,6 @@ public:
 #pragma endregion
 
 #pragma region Components
-
 	template<typename T, typename = std::enable_if_t<std::is_base_of<Component, T>::value>>
 	void AddComponent(std::weak_ptr<T> pComponent) {
 		bool wasFound = false;

@@ -29,6 +29,9 @@ void Component::Update() {
 
 void Component::update() {
 }
+
+void Component::render(){
+}
 #pragma endregion
 
 #pragma region State

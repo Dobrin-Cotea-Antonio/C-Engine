@@ -2,8 +2,6 @@
 #include "Component.h"
 #include<SFML/Graphics.hpp>
 
-class RenderWindow;
-
 class SpriteRenderer : public Component {
 protected:
 	sf::Sprite sprite;
