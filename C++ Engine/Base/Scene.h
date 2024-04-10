@@ -4,11 +4,10 @@
 #include<functional>
 
 class GameObject;
+class Component;
 
 class Scene {
 	friend class SceneManager;
-public:
-	static int sceneCount;
 protected:
 	std::vector<std::shared_ptr<GameObject>> objects;
 	std::function<void(std::string pScene)> loadScene;
@@ -31,11 +30,19 @@ protected:
 #pragma region Instantiate Template
 public:
 	template<typename T, typename = std::enable_if_t<std::is_base_of<GameObject, T>::value>>
-	std::weak_ptr<T> InstantiateTemplate() {
+	std::weak_ptr<T> InstantiateGameObject() {
 		objects.push_back(std::shared_ptr<T>(new T()));
 		std::weak_ptr<T>ptr = std::dynamic_pointer_cast<T>(objects[objects.size() - 1]);
 		ptr.lock()->SetSelfPointer(ptr);
 		return ptr;
+	}
+
+	template<typename T, typename = std::enable_if_t<std::is_base_of<Component, T>::value>>
+	std::shared_ptr<T> InstantiateComponent() {
+		std::shared_ptr<T> pointer = std::shared_ptr<T>(new T());
+		std::weak_ptr<T>ptr = std::dynamic_pointer_cast<T>(pointer);
+		pointer->SetSelfPointer(ptr);
+		return pointer;
 	}
 #pragma endregion
 

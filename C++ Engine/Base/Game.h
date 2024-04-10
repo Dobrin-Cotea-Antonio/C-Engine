@@ -7,7 +7,7 @@ class TextureCache;
 class TimeClass;
 
 class Game {
-private:
+protected:
 	SceneManager* sceneManager;
 	TextureCache* textureCache;
 	TimeClass* timeClass;

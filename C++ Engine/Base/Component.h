@@ -4,8 +4,7 @@
 class GameObject;
 
 class Component : public Object {
-
-protected:
+public:
 
 	std::weak_ptr<GameObject> owner;
 
@@ -36,6 +35,7 @@ public:
 
 #pragma region Utility
 	bool IsEnabledGlobal() override;
+	//void SetSelfPointer(std::weak_ptr<Object> pSelfPointer);
 #pragma endregion
 
 };

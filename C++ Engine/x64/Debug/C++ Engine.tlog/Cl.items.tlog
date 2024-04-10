@@ -3,6 +3,7 @@ C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\AnimationData.cpp;C:\Us
 C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Component.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\Component.obj
 C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Game.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\Game.obj
 C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\GameObject.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\GameObject.obj
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\InputManager.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\InputManager.obj
 C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Object.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\Object.obj
 C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Scene.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\Scene.obj
 C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\SceneManager.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\SceneManager.obj
@@ -12,4 +13,5 @@ C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\TimeClass.cpp;C:\Users\
 C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Transform.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\Transform.obj
 C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Vec2.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\Vec2.obj
 C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Game\MyGame.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\MyGame.obj
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Game\TestScene.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\TestScene.obj
 C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\main.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\main.obj

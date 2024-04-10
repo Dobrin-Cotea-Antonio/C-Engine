@@ -202,7 +202,9 @@
             "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\gameobject.h",
             "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\object.h",
             "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\vec2.h",
-            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\timeclass.h"
+            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\timeclass.h",
+            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\game.h",
+            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\game\\mygame.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

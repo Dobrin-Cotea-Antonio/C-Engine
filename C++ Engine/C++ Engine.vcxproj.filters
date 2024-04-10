@@ -55,6 +55,21 @@
     <Filter Include="Game">
       <UniqueIdentifier>{52057cdb-67f9-4c7e-9b02-86a36f1f34cc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Engine\InputManager">
+      <UniqueIdentifier>{8bfeea89-f4f8-4bae-9548-e378443badc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Physics">
+      <UniqueIdentifier>{abf05ab0-e0bb-48b6-a49e-55f55a6d95d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Physics\Collider">
+      <UniqueIdentifier>{7633b283-a6ab-4ce3-bbc7-408f1786f96e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\MyGame">
+      <UniqueIdentifier>{c080650c-dda5-4ea2-9da5-10627c074f79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\TestScene">
+      <UniqueIdentifier>{7ab19375-db33-443e-8288-578047d75ea8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -99,8 +114,14 @@
     <ClCompile Include="Base\Game.cpp">
       <Filter>Engine\Game</Filter>
     </ClCompile>
+    <ClCompile Include="Base\InputManager.cpp">
+      <Filter>Engine\InputManager</Filter>
+    </ClCompile>
     <ClCompile Include="Game\MyGame.cpp">
-      <Filter>Game</Filter>
+      <Filter>Game\MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\TestScene.cpp">
+      <Filter>Game\TestScene</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -143,8 +164,17 @@
     <ClInclude Include="Base\Game.h">
       <Filter>Engine\Game</Filter>
     </ClInclude>
+    <ClInclude Include="Base\InputManager.h">
+      <Filter>Engine\InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Header.h">
+      <Filter>Engine\Physics\Collider</Filter>
+    </ClInclude>
     <ClInclude Include="Game\MyGame.h">
-      <Filter>Game</Filter>
+      <Filter>Game\MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\TestScene.h">
+      <Filter>Game\TestScene</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

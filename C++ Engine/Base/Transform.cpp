@@ -2,7 +2,7 @@
 #include "GameObject.h"
 
 #pragma region Constructor/Destructor
-Transform::Transform() {
+Transform::Transform() :Component() {
 }
 
 Transform::~Transform() {

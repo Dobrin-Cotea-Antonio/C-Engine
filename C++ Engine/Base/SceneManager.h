@@ -4,7 +4,6 @@
 #include <memory>
 
 #include "Scene.h"
-//class Scene;
 
 class SceneManager {
 	friend class Game;
@@ -29,9 +28,9 @@ public:
 	//make static
 #pragma region Add Scene Template
 	template<typename T, typename = std::enable_if_t<std::is_base_of<Scene, T>::value>>
-	std::weak_ptr<T> AddScene(const std::string pID) {
-		scenes[pID] = shared_ptr<T>(new T(pID));
-
+	std::weak_ptr<T> AddScene(std::string pID) {
+		//scenes[pID] = std::shared_ptr<T>(new T(pID));
+		scenes[pID] = std::make_shared<T>(T(pID));
 		scenes[pID]->SetLoadScene([this](std::string pScene) {
 			EnableScene(pScene);
 			});
@@ -57,6 +56,7 @@ public:
 	void EnableScene(const std::string pID);
 	std::string GetActiveScene();
 	static SceneManager* GetInstance();
+	static std::weak_ptr<Scene> ReturnActiveScene();
 #pragma endregion
 
 };

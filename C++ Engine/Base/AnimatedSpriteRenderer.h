@@ -14,16 +14,18 @@ protected:
 	int animationCycleStart;
 	int animationCycleEnd;
 
-	Vec2 frameSize;
-	float elapsedTime;
+	Vec2 frameSize = Vec2(32, 32);
+	float elapsedTime = 0;
 
-public:
+
 #pragma region Constructor/Destructor
+public:
 	AnimatedSpriteRenderer();
 	virtual ~AnimatedSpriteRenderer();
 #pragma endregion
 
 #pragma region Sprite
+private:
 	void LoadSprite(const std::string& pTextureAdress)override;
 #pragma endregion
 
@@ -31,13 +33,14 @@ public:
 	void update()override;
 #pragma endregion
 
-protected:
 #pragma region Animation
+protected:
 	void Animate();
 	void SelectSubFrame();
+public:
 	void SetAnimationCycle(int pFrameStart, int pFrameEnd);
-	void ChangeAnimationState(const bool pState);
 	void SetAnimationData(const AnimationData& pAnimationData);
+	void ChangeAnimationState(const bool pState);
 #pragma endregion
 
 };

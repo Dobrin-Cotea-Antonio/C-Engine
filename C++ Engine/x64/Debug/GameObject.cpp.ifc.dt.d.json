@@ -115,7 +115,22 @@
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\clocale",
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.22000.0\\ucrt\\locale.h",
             "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\object.h",
-            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\component.h"
+            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\scenemanager.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\string",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\map",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\xtree",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\xnode_handle.h",
+            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\scene.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\functional",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\unordered_map",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\xhash",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\list",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\xbit_ops.h",
+            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\transform.h",
+            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\component.h",
+            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\vec2.h",
+            "c:\\source\\vcpkg\\installed\\x64-windows\\include\\sfml\\system\\vector2.hpp",
+            "c:\\source\\vcpkg\\installed\\x64-windows\\include\\sfml\\system\\vector2.inl"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

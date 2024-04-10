@@ -14,10 +14,13 @@ public:
 	virtual ~SpriteRenderer();
 #pragma endregion
 
+#pragma region Runtime
+	virtual void render()override;
+#pragma endregion
+
 #pragma region Sprite
 	virtual void LoadSprite(const std::string& pTextureAdress);
 	virtual void Draw();
-	void SetRenderWindow(sf::RenderWindow* pWindow);
 #pragma endregion
 
 };

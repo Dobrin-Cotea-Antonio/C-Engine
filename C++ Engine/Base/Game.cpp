@@ -2,6 +2,7 @@
 #include "SceneManager.h"
 #include "TimeClass.h"
 #include "TextureCache.h"
+#include <iostream>
 
 sf::RenderWindow* Game::window = nullptr;
 
@@ -11,8 +12,6 @@ Game::Game(const Vec2 pWindowSize) {
 	textureCache = TextureCache::GetInstance();
 	timeClass = TimeClass::GetInstance();
 	window = new sf::RenderWindow(sf::VideoMode(pWindowSize.x, pWindowSize.y), "Yes");
-	window->setKeyRepeatEnabled(false);//might need to delete
-	CreateGame();
 }
 
 Game::~Game() {

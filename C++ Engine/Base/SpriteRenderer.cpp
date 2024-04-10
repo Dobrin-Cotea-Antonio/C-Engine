@@ -2,11 +2,21 @@
 #include "TextureCache.h"
 #include "GameObject.h"
 #include "Transform.h"
+#include "../Base/Game.h"
+#include <iostream>
 
 #pragma region Constructor/Destructor
-SpriteRenderer::SpriteRenderer() {
+SpriteRenderer::SpriteRenderer() :Component() {
+	window = Game::window;
 }
 SpriteRenderer::~SpriteRenderer() {
+}
+
+#pragma endregion
+
+#pragma region Runtime
+void SpriteRenderer::render() {
+	Draw();
 }
 #pragma endregion
 
@@ -30,9 +40,5 @@ void SpriteRenderer::Draw() {
 		sprite.setRotation(owner.lock()->transform.lock()->GetGlobalRotation());
 		window->draw(sprite);
 	}
-}
-
-void SpriteRenderer::SetRenderWindow(sf::RenderWindow* pWindow) {
-	window = pWindow;
 }
 #pragma endregion

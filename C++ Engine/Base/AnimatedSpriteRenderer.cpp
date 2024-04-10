@@ -4,7 +4,7 @@
 #include <SFML/Graphics.hpp>;
 
 #pragma region Constructor/Destructor
-AnimatedSpriteRenderer::AnimatedSpriteRenderer() {
+AnimatedSpriteRenderer::AnimatedSpriteRenderer() :SpriteRenderer() {
 }
 AnimatedSpriteRenderer::~AnimatedSpriteRenderer() {
 }
@@ -18,16 +18,22 @@ void AnimatedSpriteRenderer::LoadSprite(const std::string& pTextureAdress) {
 	textureAdress = pTextureAdress;
 	sf::Texture& t = TextureCache::GetInstance()->GetTexture(pTextureAdress);
 	sprite.setTexture(t);
+
+	frameSize.x = sprite.getLocalBounds().width / animData.cols;
+	frameSize.y = sprite.getLocalBounds().height / animData.rows;
 	SelectSubFrame();
-	sprite.setOrigin(frameSize.x, frameSize.y);
+
+	sprite.setOrigin(frameSize.x/2, frameSize.y/2);
 }
 #pragma endregion
 
 #pragma region Runtime
 void AnimatedSpriteRenderer::update() {
 	elapsedTime += TimeClass::deltaTime;
-	if (animData.animate)
+	if (animData.animate) 
 		Animate();
+	
+
 }
 
 #pragma endregion
@@ -35,7 +41,6 @@ void AnimatedSpriteRenderer::update() {
 #pragma region Animation
 void AnimatedSpriteRenderer::Animate() {
 	if (animate && elapsedTime > animData.animationSpeed) {
-
 		if (!animationIsInReverse) {
 			currentFrame++;
 			if (currentFrame > animationCycleEnd)
@@ -85,12 +90,14 @@ void AnimatedSpriteRenderer::SetAnimationCycle(int pFrameStart, int pFrameEnd) {
 	SelectSubFrame();
 }
 
-void AnimatedSpriteRenderer::ChangeAnimationState(const bool pState){
+void AnimatedSpriteRenderer::ChangeAnimationState(const bool pState) {
 	animate = pState;
 	elapsedTime = 0;
 }
 
-void AnimatedSpriteRenderer::SetAnimationData(const AnimationData& pAnimationData){
+void AnimatedSpriteRenderer::SetAnimationData(const AnimationData& pAnimationData) {
 	animData = pAnimationData;
+	LoadSprite(animData.imageAdress);
+	SetAnimationCycle(0,animData.frames-1);
 }
 #pragma endregion

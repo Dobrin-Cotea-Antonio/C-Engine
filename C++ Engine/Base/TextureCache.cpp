@@ -1,5 +1,5 @@
 #include "TextureCache.h"
-
+#include <iostream>
 
 #pragma region Constructor/Destructor
 TextureCache* TextureCache::instance = nullptr;
@@ -26,10 +26,10 @@ sf::Texture& TextureCache::GetTexture(const std::string& pTextureAdress) {
 	if (textures.contains(pTextureAdress)) {
 		useCount[pTextureAdress]++;
 	} else {
-		textures[pTextureAdress] = std::shared_ptr<sf::Texture>();
+		textures[pTextureAdress] = std::make_shared<sf::Texture>(sf::Texture());
 		textures[pTextureAdress]->loadFromFile(pTextureAdress);
 		useCount[pTextureAdress] = 0;
-		useCount[pTextureAdress]++;
+		useCount[pTextureAdress] ++;
 	}
 	return (*(textures[pTextureAdress].get()));
 }

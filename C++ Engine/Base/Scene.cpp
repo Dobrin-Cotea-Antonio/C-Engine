@@ -12,7 +12,7 @@ Scene::~Scene() {
 #pragma region Runtime
 void Scene::update() {
 	for (int i = 0; i < objects.size(); i++)
-		if (objects[i]->IsEnabledGlobal())
+		if (objects[i]->IsEnabledGlobal()) 
 			objects[i]->update();
 }
 void Scene::Update() {

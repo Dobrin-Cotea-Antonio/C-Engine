@@ -16,6 +16,7 @@ public:
 #pragma region Utility
 	virtual bool IsEnabledGlobal();
 	bool GetDestroyStatus()const;
+	void SetSelfPointer(std::weak_ptr<Object> pSelfPointer);
 #pragma endregion
 
 #pragma region State

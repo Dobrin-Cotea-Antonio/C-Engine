@@ -1,8 +1,11 @@
 #include "GameObject.h"
-#include "Component.h"
+#include "../Base/SceneManager.h"
+#include "../Base/Transform.h"
 
 #pragma region Constructor/Destructor
 GameObject::GameObject() {
+	transform = AddComponent(SceneManager::ReturnActiveScene().lock()->InstantiateComponent<Transform>());
+	Enable(true);
 }
 
 GameObject::~GameObject() {
@@ -32,20 +35,20 @@ void GameObject::RemoveParent() {
 #pragma region Runtime
 void GameObject::update() {
 	for (int i = 0; i < components.size(); i++)
-		if (components[i].lock()->IsEnabledGlobal())
-			components[i].lock()->update();
+		if (components[i]->IsEnabledGlobal())
+			components[i]->update();
 }
 
 void GameObject::Update() {
 	for (int i = 0; i < components.size(); i++)
-		if (components[i].lock()->IsEnabledGlobal())
-			components[i].lock()->Update();
+		if (components[i]->IsEnabledGlobal())
+			components[i]->Update();
 }
 
-void GameObject::render(){
+void GameObject::render() {
 	for (int i = 0; i < components.size(); i++)
-		if (components[i].lock()->IsEnabledGlobal())
-			components[i].lock()->render();
+		if (components[i]->IsEnabledGlobal())
+			components[i]->render();
 }
 #pragma endregion
 
@@ -57,6 +60,9 @@ bool GameObject::IsEnabledGlobal() {
 	else {
 		return (isEnabled && parent.lock()->IsEnabledGlobal());
 	}
+}
+void GameObject::SetSelfPointer(std::weak_ptr<GameObject> pSelfPointer) {
+	selfPointer = pSelfPointer;
 }
 #pragma endregion
 

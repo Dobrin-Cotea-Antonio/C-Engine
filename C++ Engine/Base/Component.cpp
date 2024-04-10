@@ -3,6 +3,7 @@
 
 #pragma region Constructor/Destructor
 Component::Component() {
+	Enable(true);
 }
 
 Component::~Component() {
@@ -37,26 +38,9 @@ void Component::render(){
 #pragma region State
 void Component::Destroy() {
 	isDestroyed = true;
-
-	//std::weak_ptr<Object> weakBasePtr;
-
 	std::weak_ptr<Component> comp = std::dynamic_pointer_cast<Component>(selfPointer.lock());
 
 	owner.lock()->RemoveComponent(comp);
-
-	//if (auto sharedBasePtr = weakBasePtr.lock()) {
-	//    if (auto sharedDerivedPtr = std::dynamic_pointer_cast<Component>(sharedBasePtr)) {
-	//        std::weak_ptr<Component> weakDerivedPtr = sharedDerivedPtr;
-
-	//        // Use weakDerivedPtr
-	//    }
-	//    else {
-	//        // Handle the case where the dynamic cast fails
-	//    }
-	//}
-	//else {
-	//    // Handle the case where the weak_ptr is expired
-	//}
 }
 
 void Component::Enable(const bool pState) {

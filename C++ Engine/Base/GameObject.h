@@ -8,7 +8,7 @@ class Transform;
 
 class GameObject : public Object {
 private:
-	std::vector<std::weak_ptr<Component>> components;
+	std::vector<std::shared_ptr<Component>> components;
 
 protected:
 	std::vector<std::weak_ptr<GameObject>> children;
@@ -38,6 +38,7 @@ public:
 
 #pragma region Utility
 	bool IsEnabledGlobal() override;
+	void SetSelfPointer(std::weak_ptr<GameObject> pSelfPointer);
 #pragma endregion
 
 #pragma region State
@@ -46,22 +47,27 @@ public:
 
 #pragma region Components
 	template<typename T, typename = std::enable_if_t<std::is_base_of<Component, T>::value>>
-	void AddComponent(std::weak_ptr<T> pComponent) {
+	std::weak_ptr<T> AddComponent(std::shared_ptr<T> pComponent) {
 		bool wasFound = false;
 
 		//check if the component was already assigned to a different GameObject
 
 
 		for (int i = 0; i < components.size(); i++)
-			if (pComponent.lock().get() == components[i].lock().get()) {
+			if (pComponent.get() == components[i].get()) {
 				wasFound = true;
 				break;
 			}
 
-		if (!wasFound)
+		if (!wasFound) {
 			components.push_back(pComponent);
+			pComponent->owner = selfPointer;
+		}
+
 		else
 			std::cout << "Component was already assigned to this GameObject!";
+
+		return pComponent;
 	}
 
 	template<typename T, typename = std::enable_if_t<std::is_base_of<Component, T>::value>>
@@ -69,7 +75,7 @@ public:
 		bool wasFound = false;
 
 		for (int i = 0; i < components.size(); i++)
-			if (pComponent.lock().get() == components[i].lock().get()) {
+			if (pComponent.lock().get() == components[i].get()) {
 				components.erase(components.begin() + i);
 				wasFound = true;
 				break;
@@ -83,7 +89,7 @@ public:
 	std::weak_ptr<T> GetComponentOfType() {
 
 		for (int i = 0; i < components.size(); i++) {
-			T* comp = dynamic_cast<T*>(components[i].lock().get());
+			T* comp = dynamic_cast<T*>(components[i].get());
 			if (comp != nullptr)
 				return components[i];
 		}
@@ -95,7 +101,7 @@ public:
 		std::vector<std::weak_ptr<T>> componentList;
 
 		for (int i = 0; i < components.size(); i++) {
-			T* comp = dynamic_cast<T*>(components[i].lock().get());
+			T* comp = dynamic_cast<T*>(components[i].get());
 			if (comp != nullptr)
 				componentList.push_back(components[i]);
 		}

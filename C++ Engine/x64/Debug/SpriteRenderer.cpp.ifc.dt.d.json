@@ -205,7 +205,8 @@
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\iostream",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\istream",
             "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\transform.h",
-            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\vec2.h"
+            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\vec2.h",
+            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\game.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
