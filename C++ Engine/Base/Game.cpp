@@ -2,6 +2,7 @@
 #include "SceneManager.h"
 #include "TimeClass.h"
 #include "TextureCache.h"
+#include "../Base/InputManager.h"
 #include <iostream>
 
 sf::RenderWindow* Game::window = nullptr;
@@ -11,7 +12,10 @@ Game::Game(const Vec2 pWindowSize) {
 	sceneManager = SceneManager::GetInstance();
 	textureCache = TextureCache::GetInstance();
 	timeClass = TimeClass::GetInstance();
+	inputManager = InputManager::GetInstance();
 	window = new sf::RenderWindow(sf::VideoMode(pWindowSize.x, pWindowSize.y), "Yes");
+	window->setFramerateLimit(10);
+	window->setKeyRepeatEnabled(false);
 }
 
 Game::~Game() {
@@ -22,14 +26,27 @@ Game::~Game() {
 void Game::run() {
 	while (window->isOpen()) {
 		sf::Event event;
-		while (window->pollEvent(event))
+
+		inputManager->StartUpdate();
+
+		while (window->pollEvent(event)) {
 			if (event.type == sf::Event::Closed)
 				window->close();
+			inputManager->update(event);
+		}
+
+
 
 		timeClass->update();
+
 		sceneManager->update();
 		sceneManager->Update();
 		sceneManager->DestroyObjects();
+
+		//std::cout << InputManager::IsKeyPressed(Key::W)<<"\n";
+		//std::cout << InputManager::IsKeyDown(Key::D) << "\n";
+		//std::cout << InputManager::IsButtonUp(Button::Left)<<"\n";
+		std::cout << InputManager::ReturnScrollDirection() << "\n";
 		
 		window->clear();
 		sceneManager->render();

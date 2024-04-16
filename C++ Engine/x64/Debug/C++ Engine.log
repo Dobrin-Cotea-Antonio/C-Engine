@@ -1,25 +1,26 @@
 ﻿  Scanning sources for module dependencies...
-  AnimatedSpriteRenderer.cpp
+  Game.cpp
+  InputManager.cpp
   Compiling...
-  AnimatedSpriteRenderer.cpp
+  Game.cpp
+  InputManager.cpp
 C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Vec2.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  (compiling source file 'Base/AnimatedSpriteRenderer.cpp')
+  (compiling source file 'Base/InputManager.cpp')
   
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\AnimatedSpriteRenderer.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  (compiling source file 'Base/AnimatedSpriteRenderer.cpp')
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Vec2.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Base/Game.cpp')
   
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\AnimatedSpriteRenderer.cpp(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\AnimatedSpriteRenderer.cpp(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\AnimatedSpriteRenderer.cpp(60,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\AnimatedSpriteRenderer.cpp(61,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\AnimatedSpriteRenderer.cpp(63,52): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\AnimatedSpriteRenderer.cpp(63,52): warning C4244:         with
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\AnimatedSpriteRenderer.cpp(63,52): warning C4244:         [
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\AnimatedSpriteRenderer.cpp(63,52): warning C4244:             T=int
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\AnimatedSpriteRenderer.cpp(63,52): warning C4244:         ]
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\AnimatedSpriteRenderer.cpp(63,39): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\AnimatedSpriteRenderer.cpp(63,39): warning C4244:         with
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\AnimatedSpriteRenderer.cpp(63,39): warning C4244:         [
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\AnimatedSpriteRenderer.cpp(63,39): warning C4244:             T=int
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\AnimatedSpriteRenderer.cpp(63,39): warning C4244:         ]
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\InputManager.cpp(21,31): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\InputManager.cpp(21,31): warning C4244:         with
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\InputManager.cpp(21,31): warning C4244:         [
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\InputManager.cpp(21,31): warning C4244:             T=int
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\InputManager.cpp(21,31): warning C4244:         ]
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\InputManager.cpp(21,25): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\InputManager.cpp(21,25): warning C4244:         with
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\InputManager.cpp(21,25): warning C4244:         [
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\InputManager.cpp(21,25): warning C4244:             T=int
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\InputManager.cpp(21,25): warning C4244:         ]
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\InputManager.cpp(47,48): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Game.cpp(16,72): warning C4244: 'argument': conversion from 'const float' to 'unsigned int', possible loss of data
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Game.cpp(16,57): warning C4244: 'argument': conversion from 'const float' to 'unsigned int', possible loss of data
   C++ Engine.vcxproj -> C:\Users\anton\Documents\GitHub\C-Engine\x64\Debug\C++ Engine.exe

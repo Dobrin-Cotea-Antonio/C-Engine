@@ -5,12 +5,14 @@
 class SceneManager;
 class TextureCache;
 class TimeClass;
+class InputManager;
 
 class Game {
 protected:
 	SceneManager* sceneManager;
 	TextureCache* textureCache;
 	TimeClass* timeClass;
+	InputManager* inputManager;
 public:
 	static sf::RenderWindow* window;
 public:

@@ -1,121 +1,126 @@
 #include "InputManager.h"
 #include "../Base/Game.h"
+#include <iostream>
+
+InputManager* InputManager::instance = nullptr;
 
 bool InputManager::keyPressed[Key::KeyCount] = {};
 bool InputManager::keyUp[Key::KeyCount] = {};
 bool InputManager::keyDown[Key::KeyCount] = {};
-std::vector<Key> InputManager::keysPressedThisFrame;
 
 Vec2 InputManager::mousePosition = Vec2(0, 0);
 bool InputManager::buttonPressed[Button::ButtonCount] = {};
 bool InputManager::buttonUp[Button::ButtonCount] = {};
 bool InputManager::buttonDown[Button::ButtonCount] = {};
-std::vector<Button> InputManager::buttonsPressedThisFrame;
 
 int InputManager::scrollWheelDirection = 0;
 
 #pragma region Runtime
-void InputManager::update(const sf::Event& pEvent) {
+void InputManager::update(const sf::Event pEvent) {
 	sf::Vector2i mp = sf::Mouse::getPosition(*Game::window);
 	mousePosition = Vec2(mp.x, mp.y);
 
-	UpdateKeys(pEvent);
-	UpdateMouse(pEvent);
+	CheckKey(pEvent);
+	CheckButton(pEvent);
+	UpdateScrollWheel(pEvent);
 }
 
-void InputManager::UpdateKeys(const sf::Event& pEvent) {
-
-	if (pEvent.type != sf::Event::KeyPressed)
-		return;
-
-	keysPressedThisFrame.clear();
-
+void InputManager::UpdateKeys() {
 	for (int i = 0; i < Key::KeyCount; i++) {
-
 		keyDown[i] = false;
 		keyUp[i] = false;
-
-		bool keyValue = (pEvent.key.code == i);
-
-		if (!keyPressed[i] && keyValue)
-			keyDown[i] = true;//key was just pressed
-
-		if (keyPressed[i] && !keyValue)
-			keyUp[i] = true;//key was just released
-
-		keyPressed[i] = keyValue;
-
-		if (keyValue)
-			keysPressedThisFrame.push_back(static_cast<Key>(i));
 	}
 }
 
-void InputManager::UpdateMouse(const sf::Event& pEvent) {
-
-	if (pEvent.type != sf::Event::MouseButtonPressed)
-		return;
-
-	buttonsPressedThisFrame.clear();
-
+void InputManager::UpdateMouse() {
 	for (int i = 0; i < Button::ButtonCount; i++) {
 		buttonDown[i] = false;
 		buttonUp[i] = false;
-
-		bool buttonValue = (pEvent.mouseButton.button == i);
-
-		if (!buttonPressed[i] && buttonValue)
-			buttonDown[i] = true;//button was just pressed
-
-		if (buttonPressed[i] && !buttonValue)
-			buttonUp[i] = true;//button was just released
-
-		keyPressed[i] = buttonValue;
-
-		if (buttonValue)
-			buttonsPressedThisFrame.push_back(static_cast<Button>(i));
 	}
 }
 
-void InputManager::UpdateScrollWheel(const sf::Event& pEvent){
+void InputManager::UpdateScrollWheel(const sf::Event& pEvent) {
 
 	if (pEvent.type != sf::Event::MouseWheelScrolled)
 		return;
 
 	scrollWheelDirection = pEvent.mouseWheelScroll.delta;
 }
+
+void InputManager::CheckKey(const sf::Event& pEvent) {
+	if (pEvent.type == sf::Event::KeyPressed) {
+		keyPressed[pEvent.key.code] = true;
+		keyDown[pEvent.key.code] = true;
+		return;
+	}
+
+	if (pEvent.type == sf::Event::KeyReleased) {
+		keyPressed[pEvent.key.code] = false;
+		keyUp[pEvent.key.code] = true;
+		return;
+	}
+}
+
+void InputManager::CheckButton(const sf::Event& pEvent) {
+	if (pEvent.type == sf::Event::MouseButtonPressed) {
+		buttonPressed[pEvent.key.code] = true;
+		buttonDown[pEvent.key.code] = true;
+		return;
+	}
+
+	if (pEvent.type == sf::Event::MouseButtonReleased) {
+		buttonPressed[pEvent.key.code] = false;
+		buttonUp[pEvent.key.code] = true;
+		return;
+	}
+}
 #pragma endregion
 
 #pragma region Keyboard Input
 
-bool InputManager::IsKeyPressed(const Key& pKey) const {
+bool InputManager::IsKeyPressed(const Key& pKey) {
 	return keyPressed[pKey];
 }
 
-bool InputManager::IsKeyUp(const Key& pKey) const {
+bool InputManager::IsKeyUp(const Key& pKey) {
 	return keyUp[pKey];
 }
 
-bool InputManager::IsKeyDown(const Key& pKey) const {
+bool InputManager::IsKeyDown(const Key& pKey) {
 	return keyDown[pKey];
 }
 #pragma endregion
 
 #pragma region Mouse Input
-bool InputManager::IsButtonPressed(const Key& pKey) const {
+bool InputManager::IsButtonPressed(const Button& pKey) {
 	return buttonPressed[pKey];
 }
 
-bool InputManager::IsButtonUp(const Key& pKey) const {
+bool InputManager::IsButtonUp(const Button& pKey) {
 	return buttonUp[pKey];
 }
 
-bool InputManager::IsButtonDown(const Key& pKey) const {
+bool InputManager::IsButtonDown(const Button& pKey) {
 	return buttonDown[pKey];
 }
 #pragma endregion
 
 #pragma region Scroll Wheel
-int InputManager::ReturnScrollDirection() const {
+int InputManager::ReturnScrollDirection() {
 	return scrollWheelDirection;
+}
+#pragma endregion
+
+#pragma region Helper Methods
+InputManager* InputManager::GetInstance() {
+	if (instance == nullptr)
+		instance = new InputManager();
+	return instance;
+}
+
+void InputManager::StartUpdate() {
+	UpdateKeys();
+	UpdateMouse();
+	scrollWheelDirection = 0;
 }
 #pragma endregion

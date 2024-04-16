@@ -2,7 +2,7 @@
 #include "../Base/Vec2.h"
 #include <Vector>
 #include <SFML/Window.hpp>
-
+#include <vector>
 
 enum Key {
 	Unknown = -1, //!< Unhandled key
@@ -122,44 +122,54 @@ enum Button {
 
 class InputManager {
 
-public:
+private:
+	static InputManager* instance;
+
 	static bool keyPressed[Key::KeyCount];
 	static bool keyUp[Key::KeyCount];
 	static bool keyDown[Key::KeyCount];
-	static std::vector<Key> keysPressedThisFrame;
 
 	static Vec2 mousePosition;
 	static bool buttonPressed[Button::ButtonCount];
 	static bool buttonUp[Button::ButtonCount];
 	static bool buttonDown[Button::ButtonCount];
-	static std::vector<Button> buttonsPressedThisFrame;
 
 	static int scrollWheelDirection;
 
 #pragma region Runtime
 public:
-	void update(const sf::Event& pEvent);
+	void update(const sf::Event pEvent);
 private:
-	void UpdateKeys(const sf::Event& pEvent);
-	void UpdateMouse(const sf::Event& pEvent);
+	void UpdateKeys();
+	void UpdateMouse();
 	void UpdateScrollWheel(const sf::Event& pEvent);
+	void CheckKey(const sf::Event& pEvent);
+	void CheckButton(const sf::Event& pEvent);
 #pragma endregion
 
 #pragma region Keyboard Input
 public:
-	bool IsKeyPressed(const Key& pKey)const;
-	bool IsKeyUp(const Key& pKey)const;//key released
-	bool IsKeyDown(const Key& pKey)const;//key first press
+	static bool IsKeyPressed(const Key& pKey);
+	static bool IsKeyUp(const Key& pKey);//key released
+	static bool IsKeyDown(const Key& pKey);//key first press
 #pragma endregion
 
 #pragma region Mouse Input
-	bool IsButtonPressed(const Key& pKey)const;
-	bool IsButtonUp(const Key& pKey)const;//button released
-	bool IsButtonDown(const Key& pKey)const;//button first press
+public:
+	static bool IsButtonPressed(const Button& pKey);
+	static bool IsButtonUp(const Button& pKey);//button released
+	static bool IsButtonDown(const Button& pKey);//button first press
 #pragma endregion
 
 #pragma region Scroll Wheel
-	int ReturnScrollDirection()const;//positive is up
+public:
+	static int ReturnScrollDirection();//positive is up
+#pragma endregion
+
+#pragma region Helper Methods
+public:
+	static InputManager* GetInstance();
+	void StartUpdate();
 #pragma endregion
 
 };

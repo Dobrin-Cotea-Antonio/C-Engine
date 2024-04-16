@@ -33,10 +33,6 @@ void MyGame::CreateGame() {
 
 	AnimationData data(4, 1, 4, 0.25f, "Game/Assets/TankRun.png");
 	anim.lock()->SetAnimationData(data);
-	//anim.lock()->LoadSprite();
-
-
-	//anim.lock()->set
 
 }
 #pragma endregion
