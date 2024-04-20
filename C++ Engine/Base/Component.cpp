@@ -10,7 +10,7 @@ Component::~Component() {
 }
 #pragma endregion
 
-#pragma region SpecialEvents
+#pragma region Special Events
 void Component::OnEnable() {
 }
 

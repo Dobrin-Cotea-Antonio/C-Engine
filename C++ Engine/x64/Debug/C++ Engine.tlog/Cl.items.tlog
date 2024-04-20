@@ -12,6 +12,11 @@ C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\TextureCache.cpp;C:\Use
 C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\TimeClass.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\TimeClass.obj
 C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Transform.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\Transform.obj
 C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Vec2.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\Vec2.obj
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Game\CollisionTest.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\CollisionTest.obj
 C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Game\MyGame.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\MyGame.obj
 C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Game\TestScene.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\TestScene.obj
 C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\main.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\main.obj
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Physics\CircleCollider.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\CircleCollider.obj
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Physics\Collider.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\Collider.obj
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Physics\CollisionInfo.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\CollisionInfo.obj
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Physics\CollisionManager.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\CollisionManager.obj

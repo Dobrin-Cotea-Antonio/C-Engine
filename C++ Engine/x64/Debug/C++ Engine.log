@@ -1,26 +1,22 @@
 ﻿  Scanning sources for module dependencies...
   Game.cpp
-  InputManager.cpp
+  CollisionTest.cpp
   Compiling...
+  CollisionTest.cpp
   Game.cpp
-  InputManager.cpp
 C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Vec2.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  (compiling source file 'Base/InputManager.cpp')
+  (compiling source file 'Game/CollisionTest.cpp')
   
 C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Vec2.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   (compiling source file 'Base/Game.cpp')
   
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\InputManager.cpp(21,31): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\InputManager.cpp(21,31): warning C4244:         with
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\InputManager.cpp(21,31): warning C4244:         [
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\InputManager.cpp(21,31): warning C4244:             T=int
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\InputManager.cpp(21,31): warning C4244:         ]
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\InputManager.cpp(21,25): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\InputManager.cpp(21,25): warning C4244:         with
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\InputManager.cpp(21,25): warning C4244:         [
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\InputManager.cpp(21,25): warning C4244:             T=int
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\InputManager.cpp(21,25): warning C4244:         ]
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\InputManager.cpp(47,48): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Transform.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Game/CollisionTest.cpp')
+  
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Transform.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Game/CollisionTest.cpp')
+  
 C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Game.cpp(16,72): warning C4244: 'argument': conversion from 'const float' to 'unsigned int', possible loss of data
 C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Game.cpp(16,57): warning C4244: 'argument': conversion from 'const float' to 'unsigned int', possible loss of data
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\GameObject.h(99,1): warning C4715: 'GameObject::GetComponentOfType<Collider,void>': not all control paths return a value
   C++ Engine.vcxproj -> C:\Users\anton\Documents\GitHub\C-Engine\x64\Debug\C++ Engine.exe

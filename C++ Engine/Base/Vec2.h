@@ -70,3 +70,5 @@ Vec2 operator* (float x, const Vec2& pOther);
 Vec2 operator* (const Vec2& pOther, float x);
 Vec2 operator- (const Vec2& pLeft, const Vec2& pRight);
 Vec2 operator+ (const Vec2& pLeft, const Vec2& pRight);
+Vec2 operator+= (Vec2& pLeft, const Vec2& pRight);
+Vec2 operator-= (Vec2& pLeft, const Vec2& pRight);

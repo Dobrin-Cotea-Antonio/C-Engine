@@ -5,11 +5,10 @@ class GameObject;
 
 class Component : public Object {
 public:
-
 	std::weak_ptr<GameObject> owner;
 
 protected:
-#pragma region SpecialEvents
+#pragma region Special Events
 	virtual void OnEnable();
 	virtual void OnDisable();
 	virtual void OnCreate();

@@ -5,8 +5,11 @@
 
 class Component;
 class Transform;
+class CollisionManager;
 
 class GameObject : public Object {
+	friend CollisionManager;
+
 private:
 	std::vector<std::shared_ptr<Component>> components;
 
@@ -91,7 +94,7 @@ public:
 		for (int i = 0; i < components.size(); i++) {
 			T* comp = dynamic_cast<T*>(components[i].get());
 			if (comp != nullptr)
-				return components[i];
+				return std::dynamic_pointer_cast<T>(components[i]);
 		}
 	}
 
@@ -110,5 +113,4 @@ public:
 	}
 
 #pragma endregion
-
 };

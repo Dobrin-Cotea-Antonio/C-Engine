@@ -14,7 +14,7 @@ Game::Game(const Vec2 pWindowSize) {
 	timeClass = TimeClass::GetInstance();
 	inputManager = InputManager::GetInstance();
 	window = new sf::RenderWindow(sf::VideoMode(pWindowSize.x, pWindowSize.y), "Yes");
-	window->setFramerateLimit(10);
+	window->setFramerateLimit(60);
 	window->setKeyRepeatEnabled(false);
 }
 
@@ -35,18 +35,11 @@ void Game::run() {
 			inputManager->update(event);
 		}
 
-
-
 		timeClass->update();
 
 		sceneManager->update();
 		sceneManager->Update();
 		sceneManager->DestroyObjects();
-
-		//std::cout << InputManager::IsKeyPressed(Key::W)<<"\n";
-		//std::cout << InputManager::IsKeyDown(Key::D) << "\n";
-		//std::cout << InputManager::IsButtonUp(Button::Left)<<"\n";
-		std::cout << InputManager::ReturnScrollDirection() << "\n";
 		
 		window->clear();
 		sceneManager->render();

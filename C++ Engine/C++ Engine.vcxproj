@@ -144,9 +144,14 @@
     <ClCompile Include="Base\TimeClass.cpp" />
     <ClCompile Include="Base\Transform.cpp" />
     <ClCompile Include="Base\Vec2.cpp" />
+    <ClCompile Include="Game\CollisionTest.cpp" />
     <ClCompile Include="Game\MyGame.cpp" />
     <ClCompile Include="Game\TestScene.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Physics\CircleCollider.cpp" />
+    <ClCompile Include="Physics\Collider.cpp" />
+    <ClCompile Include="Physics\CollisionInfo.cpp" />
+    <ClCompile Include="Physics\CollisionManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Base\AnimatedSpriteRenderer.h" />
@@ -163,9 +168,13 @@
     <ClInclude Include="Base\TimeClass.h" />
     <ClInclude Include="Base\Transform.h" />
     <ClInclude Include="Base\Vec2.h" />
+    <ClInclude Include="Game\CollisionTest.h" />
     <ClInclude Include="Game\MyGame.h" />
     <ClInclude Include="Game\TestScene.h" />
-    <ClInclude Include="Physics\Header.h" />
+    <ClInclude Include="Physics\CircleCollider.h" />
+    <ClInclude Include="Physics\Collider.h" />
+    <ClInclude Include="Physics\CollisionInfo.h" />
+    <ClInclude Include="Physics\CollisionManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

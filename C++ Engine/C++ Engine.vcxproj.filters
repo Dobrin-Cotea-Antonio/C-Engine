@@ -70,6 +70,15 @@
     <Filter Include="Game\TestScene">
       <UniqueIdentifier>{7ab19375-db33-443e-8288-578047d75ea8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Engine\Physics\CollisionManager">
+      <UniqueIdentifier>{55bd6439-64fd-44fa-9269-8e7cea943100}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Physics\CircleCollider">
+      <UniqueIdentifier>{b6bc756b-2106-4690-928c-34f3e7cdcf8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\CollisionTest">
+      <UniqueIdentifier>{b3d0eede-f2bd-4030-af64-b30f089b7097}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -123,6 +132,21 @@
     <ClCompile Include="Game\TestScene.cpp">
       <Filter>Game\TestScene</Filter>
     </ClCompile>
+    <ClCompile Include="Physics\Collider.cpp">
+      <Filter>Engine\Physics\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\CollisionManager.cpp">
+      <Filter>Engine\Physics\CollisionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\CollisionInfo.cpp">
+      <Filter>Engine\Physics\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\CircleCollider.cpp">
+      <Filter>Engine\Physics\CircleCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\CollisionTest.cpp">
+      <Filter>Game\CollisionTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Base\GameObject.h">
@@ -167,7 +191,7 @@
     <ClInclude Include="Base\InputManager.h">
       <Filter>Engine\InputManager</Filter>
     </ClInclude>
-    <ClInclude Include="Physics\Header.h">
+    <ClInclude Include="Physics\Collider.h">
       <Filter>Engine\Physics\Collider</Filter>
     </ClInclude>
     <ClInclude Include="Game\MyGame.h">
@@ -175,6 +199,18 @@
     </ClInclude>
     <ClInclude Include="Game\TestScene.h">
       <Filter>Game\TestScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\CollisionManager.h">
+      <Filter>Engine\Physics\CollisionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\CollisionInfo.h">
+      <Filter>Engine\Physics\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\CircleCollider.h">
+      <Filter>Engine\Physics\CircleCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\CollisionTest.h">
+      <Filter>Game\CollisionTest</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

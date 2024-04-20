@@ -17,11 +17,9 @@ TextureCache* TextureCache::GetInstance() {
 		instance = new TextureCache();
 	return instance;
 }
-
 #pragma endregion
 
 #pragma region Methods
-//<----------------------------------------------------------------------------------------------------------- needs testing 
 sf::Texture& TextureCache::GetTexture(const std::string& pTextureAdress) {
 	if (textures.contains(pTextureAdress)) {
 		useCount[pTextureAdress]++;
@@ -29,11 +27,11 @@ sf::Texture& TextureCache::GetTexture(const std::string& pTextureAdress) {
 		textures[pTextureAdress] = std::make_shared<sf::Texture>(sf::Texture());
 		textures[pTextureAdress]->loadFromFile(pTextureAdress);
 		useCount[pTextureAdress] = 0;
-		useCount[pTextureAdress] ++;
+		useCount[pTextureAdress]++;
 	}
 	return (*(textures[pTextureAdress].get()));
 }
-//<----------------------------------------------------------------------------------------------------------- needs testing 
+
 void TextureCache::DecreaseTextureCount(const std::string& pTextureAdress) {
 	useCount[pTextureAdress]--;
 	if (useCount[pTextureAdress] != 0)
@@ -41,5 +39,4 @@ void TextureCache::DecreaseTextureCount(const std::string& pTextureAdress) {
 	textures.erase(pTextureAdress);
 	useCount.erase(pTextureAdress);
 }
-//<----------------------------------------------------------------------------------------------------------- needs testing 
 #pragma endregion

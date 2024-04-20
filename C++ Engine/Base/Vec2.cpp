@@ -52,6 +52,18 @@ Vec2 operator+(const Vec2& pLeft, const Vec2& pRight) {
 	return Vec2(pLeft.x + pRight.x, pLeft.y + pRight.y);
 }
 
+Vec2 operator+=(Vec2& pLeft, const Vec2& pRight) {
+	pLeft.x += pRight.x;
+	pLeft.y += pRight.y;
+	return pLeft;
+}
+
+Vec2 operator-=(Vec2& pLeft, const Vec2& pRight) {
+	pLeft.x -= pRight.x;
+	pLeft.y -= pRight.y;
+	return pLeft;
+}
+
 Vec2 Vec2::operator*(float pOther) {
 	return Vec2(x * pOther, y * pOther);
 }

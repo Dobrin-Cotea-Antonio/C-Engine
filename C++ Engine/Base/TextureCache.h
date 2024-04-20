@@ -9,13 +9,14 @@ class TextureCache {
 
 private:
 	static TextureCache* instance;
-	
+
 	std::map<std::string, std::shared_ptr<sf::Texture>> textures;
 	std::map<std::string, int> useCount;
 
-protected:
 #pragma region Constructor/Destructor
+protected:
 	TextureCache();
+public:
 	virtual ~TextureCache();
 #pragma endregion
 
