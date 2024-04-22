@@ -43,8 +43,6 @@ void SceneManager::EnableScene(const std::string pID) {
 	if (!activeScene.empty())
 		scenes[activeScene]->DestroyScene();
 	activeScene = pID;
-
-	std::cout << pID;
 	scenes[activeScene]->CreateLevel();
 }
 

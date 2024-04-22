@@ -3,24 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|solutionrelative:C\u002B\u002B Engine\\Base\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\CollisionInfo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|solutionrelative:C\u002B\u002B Engine\\Physics\\CollisionInfo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Game\\CollisionTest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|solutionrelative:C\u002B\u002B Engine\\Game\\CollisionTest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Game\\CollisionTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|solutionrelative:C\u002B\u002B Engine\\Game\\CollisionTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\CollisionManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|solutionrelative:C\u002B\u002B Engine\\Physics\\CollisionManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\CollisionManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|solutionrelative:C\u002B\u002B Engine\\Physics\\CollisionManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\CircleCollider.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|solutionrelative:C\u002B\u002B Engine\\Physics\\CircleCollider.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Game\\MyGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|solutionrelative:C\u002B\u002B Engine\\Game\\MyGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\Cell.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|solutionrelative:C\u002B\u002B Engine\\Physics\\Cell.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|solutionrelative:C\u002B\u002B Engine\\Base\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\Collider.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|solutionrelative:C\u002B\u002B Engine\\Physics\\Collider.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\SceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|solutionrelative:C\u002B\u002B Engine\\Base\\SceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\Collider.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|solutionrelative:C\u002B\u002B Engine\\Physics\\Collider.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|solutionrelative:C\u002B\u002B Engine\\Base\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\Vec2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -31,28 +51,28 @@
       "RelativeMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|solutionrelative:C\u002B\u002B Engine\\Base\\Vec2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Game\\CollisionTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|solutionrelative:C\u002B\u002B Engine\\Game\\CollisionTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\CircleCollider.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|solutionrelative:C\u002B\u002B Engine\\Physics\\CircleCollider.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Game\\CollisionTest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|solutionrelative:C\u002B\u002B Engine\\Game\\CollisionTest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\CollisionInfo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|solutionrelative:C\u002B\u002B Engine\\Physics\\CollisionInfo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\Transform.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|solutionrelative:C\u002B\u002B Engine\\Base\\Transform.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Game\\MyGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|solutionrelative:C\u002B\u002B Engine\\Game\\MyGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|solutionrelative:C\u002B\u002B Engine\\Base\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\CircleCollider.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|solutionrelative:C\u002B\u002B Engine\\Physics\\CircleCollider.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\Component.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|solutionrelative:C\u002B\u002B Engine\\Base\\Component.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\Collider.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|solutionrelative:C\u002B\u002B Engine\\Physics\\Collider.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Game\\MyGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -71,20 +91,8 @@
       "RelativeMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|solutionrelative:C\u002B\u002B Engine\\Base\\TextureCache.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\CollisionManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|solutionrelative:C\u002B\u002B Engine\\Physics\\CollisionManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\Collider.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|solutionrelative:C\u002B\u002B Engine\\Physics\\Collider.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\Component.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|solutionrelative:C\u002B\u002B Engine\\Base\\Component.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\CircleCollider.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|solutionrelative:C\u002B\u002B Engine\\Physics\\CircleCollider.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\AnimationData.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -121,10 +129,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|solutionrelative:C\u002B\u002B Engine\\Base\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\SceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|solutionrelative:C\u002B\u002B Engine\\Base\\SceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8CA97D6D-195D-440D-BDDD-A203C39AB440}|C\u002B\u002B Engine\\C\u002B\u002B Engine.vcxproj|C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\SpriteRenderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -191,37 +195,206 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameObject.h",
+              "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\GameObject.h",
+              "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Base\\GameObject.h",
+              "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\GameObject.h",
+              "RelativeToolTip": "C\u002B\u002B Engine\\Base\\GameObject.h",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAAAEYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-22T14:50:32.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cell.h",
+              "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\Cell.h",
+              "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Physics\\Cell.h",
+              "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\Cell.h",
+              "RelativeToolTip": "C\u002B\u002B Engine\\Physics\\Cell.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-21T17:48:37.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "MyGame.cpp",
+              "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Game\\MyGame.cpp",
+              "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Game\\MyGame.cpp",
+              "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Game\\MyGame.cpp",
+              "RelativeToolTip": "C\u002B\u002B Engine\\Game\\MyGame.cpp",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABoAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-04T17:46:54.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CollisionManager.cpp",
+              "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\CollisionManager.cpp",
+              "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Physics\\CollisionManager.cpp",
+              "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\CollisionManager.cpp",
+              "RelativeToolTip": "C\u002B\u002B Engine\\Physics\\CollisionManager.cpp",
+              "ViewState": "AQIAAHAAAAAAAAAAAAD4v4cAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-17T11:19:21.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CollisionManager.h",
+              "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\CollisionManager.h",
+              "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Physics\\CollisionManager.h",
+              "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\CollisionManager.h",
+              "RelativeToolTip": "C\u002B\u002B Engine\\Physics\\CollisionManager.h",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-17T11:12:30.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Game.cpp",
+              "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\Game.cpp",
+              "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Base\\Game.cpp",
+              "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\Game.cpp",
+              "RelativeToolTip": "C\u002B\u002B Engine\\Base\\Game.cpp",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-04T17:20:52.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Collider.cpp",
+              "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\Collider.cpp",
+              "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Physics\\Collider.cpp",
+              "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\Collider.cpp",
+              "RelativeToolTip": "C\u002B\u002B Engine\\Physics\\Collider.cpp",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAkwDMAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-17T10:54:52.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CircleCollider.cpp",
+              "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\CircleCollider.cpp",
+              "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Physics\\CircleCollider.cpp",
+              "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\CircleCollider.cpp",
+              "RelativeToolTip": "C\u002B\u002B Engine\\Physics\\CircleCollider.cpp",
+              "ViewState": "AQIAAGEAAAAAAAAAAAD4v3gAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-18T08:19:40.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SceneManager.cpp",
+              "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\SceneManager.cpp",
+              "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Base\\SceneManager.cpp",
+              "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\SceneManager.cpp",
+              "RelativeToolTip": "C\u002B\u002B Engine\\Base\\SceneManager.cpp",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAACgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-04T15:18:26.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Collider.h",
+              "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\Collider.h",
+              "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Physics\\Collider.h",
+              "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\Collider.h",
+              "RelativeToolTip": "C\u002B\u002B Engine\\Physics\\Collider.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-07T17:19:11.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Vec2.cpp",
+              "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\Vec2.cpp",
+              "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Base\\Vec2.cpp",
+              "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\Vec2.cpp",
+              "RelativeToolTip": "C\u002B\u002B Engine\\Base\\Vec2.cpp",
+              "ViewState": "AQIAAFMAAAAAAAAAAAD4v2MAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-22T20:41:47.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Vec2.h",
+              "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\Vec2.h",
+              "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Base\\Vec2.h",
+              "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\Vec2.h",
+              "RelativeToolTip": "C\u002B\u002B Engine\\Base\\Vec2.h",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAQAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-22T20:41:53.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "CollisionTest.cpp",
               "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Game\\CollisionTest.cpp",
               "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Game\\CollisionTest.cpp",
               "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Game\\CollisionTest.cpp",
               "RelativeToolTip": "C\u002B\u002B Engine\\Game\\CollisionTest.cpp",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAAA6AAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACQAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-20T13:40:38.968Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
+              "Title": "CircleCollider.h",
+              "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\CircleCollider.h",
+              "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Physics\\CircleCollider.h",
+              "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\CircleCollider.h",
+              "RelativeToolTip": "C\u002B\u002B Engine\\Physics\\CircleCollider.h",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAkwB0AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-18T07:57:15.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "CollisionTest.h",
               "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Game\\CollisionTest.h",
               "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Game\\CollisionTest.h",
               "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Game\\CollisionTest.h",
               "RelativeToolTip": "C\u002B\u002B Engine\\Game\\CollisionTest.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAATAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-04-20T13:37:07.707Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 15,
               "Title": "CollisionInfo.h",
               "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\CollisionInfo.h",
               "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Physics\\CollisionInfo.h",
@@ -234,33 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "GameObject.h",
-              "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\GameObject.h",
-              "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Base\\GameObject.h",
-              "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\GameObject.h",
-              "RelativeToolTip": "C\u002B\u002B Engine\\Base\\GameObject.h",
-              "ViewState": "AQIAAFkAAAAAAAAAAAAkwGwAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-18T14:58:47.139Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MyGame.cpp",
-              "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Game\\MyGame.cpp",
-              "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Game\\MyGame.cpp",
-              "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Game\\MyGame.cpp",
-              "RelativeToolTip": "C\u002B\u002B Engine\\Game\\MyGame.cpp",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAADEAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-04T17:46:54.569Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "Transform.h",
               "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\Transform.h",
               "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Base\\Transform.h",
@@ -273,85 +420,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Vec2.h",
-              "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\Vec2.h",
-              "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Base\\Vec2.h",
-              "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\Vec2.h",
-              "RelativeToolTip": "C\u002B\u002B Engine\\Base\\Vec2.h",
-              "ViewState": "AQIAADkAAAAAAAAAAAD4v0gAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-22T20:41:53.847Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CollisionManager.cpp",
-              "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\CollisionManager.cpp",
-              "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Physics\\CollisionManager.cpp",
-              "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\CollisionManager.cpp",
-              "RelativeToolTip": "C\u002B\u002B Engine\\Physics\\CollisionManager.cpp",
-              "ViewState": "AQIAAF8AAAAAAAAAAAD4v3YAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-17T11:19:21.38Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Vec2.cpp",
-              "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\Vec2.cpp",
-              "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Base\\Vec2.cpp",
-              "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\Vec2.cpp",
-              "RelativeToolTip": "C\u002B\u002B Engine\\Base\\Vec2.cpp",
-              "ViewState": "AQIAACcAAAAAAAAAAAD4vz4AAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-22T20:41:47.687Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Game.cpp",
-              "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\Game.cpp",
-              "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Base\\Game.cpp",
-              "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\Game.cpp",
-              "RelativeToolTip": "C\u002B\u002B Engine\\Base\\Game.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-04T17:20:52.625Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CircleCollider.cpp",
-              "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\CircleCollider.cpp",
-              "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Physics\\CircleCollider.cpp",
-              "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\CircleCollider.cpp",
-              "RelativeToolTip": "C\u002B\u002B Engine\\Physics\\CircleCollider.cpp",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-18T08:19:40.882Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "Component.h",
               "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\Component.h",
               "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Base\\Component.h",
               "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\Component.h",
               "RelativeToolTip": "C\u002B\u002B Engine\\Base\\Component.h",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAAAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAABBwBgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-03-18T19:04:53.684Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "MyGame.h",
               "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Game\\MyGame.h",
               "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Game\\MyGame.h",
@@ -364,7 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "CollisionInfo.cpp",
               "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\CollisionInfo.cpp",
               "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Physics\\CollisionInfo.cpp",
@@ -377,33 +459,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "GameObject.cpp",
               "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\GameObject.cpp",
               "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Base\\GameObject.cpp",
               "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\GameObject.cpp",
               "RelativeToolTip": "C\u002B\u002B Engine\\Base\\GameObject.cpp",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAAAEsAAAARAAAA",
+              "ViewState": "AQIAAD0AAAAAAAAAAABBwEsAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-18T15:00:48.303Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Collider.h",
-              "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\Collider.h",
-              "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Physics\\Collider.h",
-              "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\Collider.h",
-              "RelativeToolTip": "C\u002B\u002B Engine\\Physics\\Collider.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-07T17:19:11.537Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "TextureCache.cpp",
               "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\TextureCache.cpp",
               "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Base\\TextureCache.cpp",
@@ -416,33 +485,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CollisionManager.h",
-              "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\CollisionManager.h",
-              "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Physics\\CollisionManager.h",
-              "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\CollisionManager.h",
-              "RelativeToolTip": "C\u002B\u002B Engine\\Physics\\CollisionManager.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-17T11:12:30.042Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Collider.cpp",
-              "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\Collider.cpp",
-              "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Physics\\Collider.cpp",
-              "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\Collider.cpp",
-              "RelativeToolTip": "C\u002B\u002B Engine\\Physics\\Collider.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-17T10:54:52.778Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "Component.cpp",
               "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\Component.cpp",
               "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Base\\Component.cpp",
@@ -455,7 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "AnimationData.cpp",
               "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\AnimationData.cpp",
               "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Base\\AnimationData.cpp",
@@ -463,11 +506,12 @@
               "RelativeToolTip": "C\u002B\u002B Engine\\Base\\AnimationData.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-23T18:38:05.076Z"
+              "WhenOpened": "2024-03-23T18:38:05.076Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "AnimationData.h",
               "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\AnimationData.h",
               "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Base\\AnimationData.h",
@@ -475,23 +519,12 @@
               "RelativeToolTip": "C\u002B\u002B Engine\\Base\\AnimationData.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-23T18:34:44.406Z"
+              "WhenOpened": "2024-03-23T18:34:44.406Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CircleCollider.h",
-              "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\CircleCollider.h",
-              "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Physics\\CircleCollider.h",
-              "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Physics\\CircleCollider.h",
-              "RelativeToolTip": "C\u002B\u002B Engine\\Physics\\CircleCollider.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-18T07:57:15.423Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "Scene.h",
               "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\Scene.h",
               "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Base\\Scene.h",
@@ -499,23 +532,25 @@
               "RelativeToolTip": "C\u002B\u002B Engine\\Base\\Scene.h",
               "ViewState": "AQIAABMAAAAAAAAAAIAwwCcAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-04T11:17:23.559Z"
+              "WhenOpened": "2024-04-04T11:17:23.559Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "SceneManager.h",
               "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\SceneManager.h",
               "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Base\\SceneManager.h",
               "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\SceneManager.h",
               "RelativeToolTip": "C\u002B\u002B Engine\\Base\\SceneManager.h",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAABDAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAABBwB0AAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-04T15:18:57.753Z"
+              "WhenOpened": "2024-04-04T15:18:57.753Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "Object.h",
               "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\Object.h",
               "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Base\\Object.h",
@@ -523,11 +558,12 @@
               "RelativeToolTip": "C\u002B\u002B Engine\\Base\\Object.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-23T14:05:53.992Z"
+              "WhenOpened": "2024-03-23T14:05:53.992Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "TextureCache.h",
               "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\TextureCache.h",
               "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Base\\TextureCache.h",
@@ -535,71 +571,64 @@
               "RelativeToolTip": "C\u002B\u002B Engine\\Base\\TextureCache.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-23T08:05:51.755Z"
+              "WhenOpened": "2024-03-23T08:05:51.755Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "InputManager.h",
               "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\InputManager.h",
               "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Base\\InputManager.h",
               "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\InputManager.h",
               "RelativeToolTip": "C\u002B\u002B Engine\\Base\\InputManager.h",
-              "ViewState": "AQIAAHkAAAAAAAAAAAAAAHoAAAAUAAAA",
+              "ViewState": "AQIAAG8AAAAAAAAAAABRwHoAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-07T11:49:05.081Z"
+              "WhenOpened": "2024-04-07T11:49:05.081Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "AnimatedSpriteRenderer.cpp",
               "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\AnimatedSpriteRenderer.cpp",
               "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Base\\AnimatedSpriteRenderer.cpp",
               "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\AnimatedSpriteRenderer.cpp",
               "RelativeToolTip": "C\u002B\u002B Engine\\Base\\AnimatedSpriteRenderer.cpp",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAAkAAAABAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAABBwAkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-04T10:20:30.045Z"
+              "WhenOpened": "2024-04-04T10:20:30.045Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
-              "Title": "SceneManager.cpp",
-              "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\SceneManager.cpp",
-              "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Base\\SceneManager.cpp",
-              "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\SceneManager.cpp",
-              "RelativeToolTip": "C\u002B\u002B Engine\\Base\\SceneManager.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-04T15:18:26.264Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
               "Title": "InputManager.cpp",
               "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\InputManager.cpp",
               "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Base\\InputManager.cpp",
               "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\InputManager.cpp",
               "RelativeToolTip": "C\u002B\u002B Engine\\Base\\InputManager.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGsAAAAAAAAA",
+              "ViewState": "AQIAAFwAAAAAAAAAAABRwGsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-07T12:21:09.533Z"
+              "WhenOpened": "2024-04-07T12:21:09.533Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "Game.h",
               "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\Game.h",
               "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Base\\Game.h",
               "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\Game.h",
               "RelativeToolTip": "C\u002B\u002B Engine\\Base\\Game.h",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAeAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAABBwBMAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-04T16:17:31.388Z"
+              "WhenOpened": "2024-04-04T16:17:31.388Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "SpriteRenderer.cpp",
               "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\SpriteRenderer.cpp",
               "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Base\\SpriteRenderer.cpp",
@@ -607,11 +636,12 @@
               "RelativeToolTip": "C\u002B\u002B Engine\\Base\\SpriteRenderer.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-23T14:58:54.372Z"
+              "WhenOpened": "2024-03-23T14:58:54.372Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\main.cpp",
               "RelativeDocumentMoniker": "C\u002B\u002B Engine\\main.cpp",
@@ -619,23 +649,25 @@
               "RelativeToolTip": "C\u002B\u002B Engine\\main.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-18T14:33:44.788Z"
+              "WhenOpened": "2024-03-18T14:33:44.788Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "AnimatedSpriteRenderer.h",
               "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\AnimatedSpriteRenderer.h",
               "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Base\\AnimatedSpriteRenderer.h",
               "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\AnimatedSpriteRenderer.h",
               "RelativeToolTip": "C\u002B\u002B Engine\\Base\\AnimatedSpriteRenderer.h",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB8AAAAWAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAABBwB8AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-23T15:34:19.77Z"
+              "WhenOpened": "2024-03-23T15:34:19.77Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "SpriteRenderer.h",
               "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\SpriteRenderer.h",
               "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Base\\SpriteRenderer.h",
@@ -643,11 +675,12 @@
               "RelativeToolTip": "C\u002B\u002B Engine\\Base\\SpriteRenderer.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-23T07:38:33.727Z"
+              "WhenOpened": "2024-03-23T07:38:33.727Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "TestScene.h",
               "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Game\\TestScene.h",
               "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Game\\TestScene.h",
@@ -655,11 +688,12 @@
               "RelativeToolTip": "C\u002B\u002B Engine\\Game\\TestScene.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-08T09:18:40.508Z"
+              "WhenOpened": "2024-04-08T09:18:40.508Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "TestScene.cpp",
               "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Game\\TestScene.cpp",
               "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Game\\TestScene.cpp",
@@ -667,11 +701,12 @@
               "RelativeToolTip": "C\u002B\u002B Engine\\Game\\TestScene.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-08T09:21:19.656Z"
+              "WhenOpened": "2024-04-08T09:21:19.656Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "Texture.cpp",
               "DocumentMoniker": "C:\\source\\vcpkg\\buildtrees\\sfml\\src\\2.6.0-2d6a42d05d.clean\\src\\SFML\\Graphics\\Texture.cpp",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\vcpkg\\buildtrees\\sfml\\src\\2.6.0-2d6a42d05d.clean\\src\\SFML\\Graphics\\Texture.cpp",
@@ -683,7 +718,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "Sprite.cpp",
               "DocumentMoniker": "C:\\source\\vcpkg\\buildtrees\\sfml\\src\\2.6.0-2d6a42d05d.clean\\src\\SFML\\Graphics\\Sprite.cpp",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\vcpkg\\buildtrees\\sfml\\src\\2.6.0-2d6a42d05d.clean\\src\\SFML\\Graphics\\Sprite.cpp",
@@ -695,19 +730,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "Object.cpp",
               "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\Object.cpp",
               "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Base\\Object.cpp",
               "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\Object.cpp",
               "RelativeToolTip": "C\u002B\u002B Engine\\Base\\Object.cpp",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAABBwAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-27T09:51:36.428Z"
+              "WhenOpened": "2024-03-27T09:51:36.428Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "xutility",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\xutility",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\xutility",
@@ -719,19 +755,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "Scene.cpp",
               "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\Scene.cpp",
               "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Base\\Scene.cpp",
               "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\Scene.cpp",
               "RelativeToolTip": "C\u002B\u002B Engine\\Base\\Scene.cpp",
-              "ViewState": "AQIAABQAAAAAAAAAAAAQwCMAAAAYAAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAABRwCMAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-04T13:20:43.174Z"
+              "WhenOpened": "2024-04-04T13:20:43.174Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "Transform.cpp",
               "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\Transform.cpp",
               "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Base\\Transform.cpp",
@@ -739,11 +776,12 @@
               "RelativeToolTip": "C\u002B\u002B Engine\\Base\\Transform.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-22T20:21:16.003Z"
+              "WhenOpened": "2024-03-22T20:21:16.003Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "TimeClass.h",
               "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\TimeClass.h",
               "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Base\\TimeClass.h",
@@ -751,19 +789,21 @@
               "RelativeToolTip": "C\u002B\u002B Engine\\Base\\TimeClass.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-27T10:05:36.862Z"
+              "WhenOpened": "2024-03-27T10:05:36.862Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "TimeClass.cpp",
               "DocumentMoniker": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\TimeClass.cpp",
               "RelativeDocumentMoniker": "C\u002B\u002B Engine\\Base\\TimeClass.cpp",
               "ToolTip": "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C\u002B\u002B Engine\\Base\\TimeClass.cpp",
               "RelativeToolTip": "C\u002B\u002B Engine\\Base\\TimeClass.cpp",
-              "ViewState": "AQIAAAIAAAAAAAAAAABRwBQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBZwBQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-27T10:05:41.586Z"
+              "WhenOpened": "2024-03-27T10:05:41.586Z",
+              "EditorCaption": ""
             }
           ]
         }

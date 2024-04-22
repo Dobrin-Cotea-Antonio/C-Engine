@@ -79,6 +79,9 @@
     <Filter Include="Game\CollisionTest">
       <UniqueIdentifier>{b3d0eede-f2bd-4030-af64-b30f089b7097}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Engine\Physics\Cell">
+      <UniqueIdentifier>{c2bb05a0-498e-4bbb-8e55-936ea98718ea}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -211,6 +214,9 @@
     </ClInclude>
     <ClInclude Include="Game\CollisionTest.h">
       <Filter>Game\CollisionTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Cell.h">
+      <Filter>Engine\Physics\Cell</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

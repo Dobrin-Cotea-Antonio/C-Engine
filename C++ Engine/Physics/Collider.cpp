@@ -24,7 +24,8 @@ void Collider::SetCollisionType(bool pIsTrigger) {
 	if (isTrigger) {
 		CollisionManager::GetInstance()->RemoveSolidCollider(p);
 		CollisionManager::GetInstance()->AddTriggerCollider(p);
-	} else {
+	}
+	else {
 		CollisionManager::GetInstance()->RemoveTriggerCollider(p);
 		CollisionManager::GetInstance()->AddSolidCollider(p);
 	}
@@ -46,5 +47,8 @@ bool Collider::Overlaps(std::weak_ptr<Collider> pOther) {
 #pragma region Helper Methods
 bool Collider::IsTrigger() const {
 	return isTrigger;
+}
+
+void Collider::FindOwnerCells(Cell* pCellsMatrix[10][10], int pCols, int pRows, Vec2 pCellSize){
 }
 #pragma endregion

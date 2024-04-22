@@ -1,9 +1,10 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\game.cpp",
+        "Source": "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\game\\mygame.cpp",
         "ProvidedModule": "",
         "Includes": [
+            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\game\\mygame.h",
             "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\game.h",
             "c:\\source\\vcpkg\\installed\\x64-windows\\include\\sfml\\graphics.hpp",
             "c:\\source\\vcpkg\\installed\\x64-windows\\include\\sfml\\window.hpp",
@@ -208,9 +209,19 @@
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\xhash",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\list",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\xbit_ops.h",
-            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\timeclass.h",
-            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\texturecache.h",
-            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\inputmanager.h"
+            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\game\\testscene.h",
+            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\animatedspriterenderer.h",
+            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\spriterenderer.h",
+            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\component.h",
+            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\object.h",
+            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\animationdata.h",
+            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\gameobject.h",
+            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\transform.h",
+            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\game\\collisiontest.h",
+            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\physics\\circlecollider.h",
+            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\physics\\collider.h",
+            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\physics\\collisioninfo.h",
+            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\physics\\collisionmanager.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

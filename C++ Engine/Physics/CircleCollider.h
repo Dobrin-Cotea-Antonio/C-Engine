@@ -25,6 +25,10 @@ private:
 #pragma region Helper Methods
 private:
 	float CalculateCircleTimeOfImpact(const CircleCollider* pOther, const Vec2 pVelocity);
+	float CalculateDistanceToLine(Vec2 pLineStart, Vec2 pLineEnd);
+public:
+	virtual void FindOwnerCells(Cell* pCellsMatrix[10][10], int pCols, int pRows, Vec2 pCellSize)override;
+
 #pragma endregion
 
 };

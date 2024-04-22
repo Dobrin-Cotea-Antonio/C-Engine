@@ -171,6 +171,7 @@
     <ClInclude Include="Game\CollisionTest.h" />
     <ClInclude Include="Game\MyGame.h" />
     <ClInclude Include="Game\TestScene.h" />
+    <ClInclude Include="Physics\Cell.h" />
     <ClInclude Include="Physics\CircleCollider.h" />
     <ClInclude Include="Physics\Collider.h" />
     <ClInclude Include="Physics\CollisionInfo.h" />

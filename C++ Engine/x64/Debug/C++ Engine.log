@@ -1,22 +1,88 @@
 ﻿  Scanning sources for module dependencies...
-  Game.cpp
+  CircleCollider.cpp
+  CollisionManager.cpp
   CollisionTest.cpp
+  Collider.cpp
+  MyGame.cpp
   Compiling...
   CollisionTest.cpp
-  Game.cpp
+  CircleCollider.cpp
+  CollisionManager.cpp
+  Collider.cpp
+  MyGame.cpp
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Game\MyGame.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
 C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Vec2.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Physics/CircleCollider.cpp')
+  
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Vec2.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Physics/Collider.cpp')
+  
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Vec2.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Physics/CollisionManager.cpp')
+  
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Transform.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Physics/CollisionManager.cpp')
+  
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Transform.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Physics/CollisionManager.cpp')
+  
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Physics\CircleCollider.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Physics/CircleCollider.cpp')
+  
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Transform.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Physics/CircleCollider.cpp')
+  
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Transform.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Physics/CircleCollider.cpp')
+  
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Physics\CircleCollider.cpp(61,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Physics\CircleCollider.cpp(63,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Physics\CircleCollider.cpp(64,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Physics\CircleCollider.cpp(92,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Vec2.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Physics\CircleCollider.cpp(199,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Physics\CircleCollider.cpp(200,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'Game/CollisionTest.cpp')
   
 C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Vec2.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  (compiling source file 'Base/Game.cpp')
+  (compiling source file 'Game/MyGame.cpp')
   
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Game\MyGame.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Physics\CollisionManager.cpp(12,76): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Physics\CollisionManager.cpp(12,76): warning C4244:         with
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Physics\CollisionManager.cpp(12,76): warning C4244:         [
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Physics\CollisionManager.cpp(12,76): warning C4244:             T=unsigned int
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Physics\CollisionManager.cpp(12,76): warning C4244:         ]
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Physics\CollisionManager.cpp(12,49): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Physics\CollisionManager.cpp(12,49): warning C4244:         with
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Physics\CollisionManager.cpp(12,49): warning C4244:         [
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Physics\CollisionManager.cpp(12,49): warning C4244:             T=unsigned int
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Physics\CollisionManager.cpp(12,49): warning C4244:         ]
 C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Transform.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   (compiling source file 'Game/CollisionTest.cpp')
   
 C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Transform.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   (compiling source file 'Game/CollisionTest.cpp')
   
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Game.cpp(16,72): warning C4244: 'argument': conversion from 'const float' to 'unsigned int', possible loss of data
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Game.cpp(16,57): warning C4244: 'argument': conversion from 'const float' to 'unsigned int', possible loss of data
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Game\MyGame.cpp(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Game\TestScene.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Game/MyGame.cpp')
+  
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Game\MyGame.cpp(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\AnimatedSpriteRenderer.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Game/MyGame.cpp')
+  
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Game\MyGame.cpp(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Game\MyGame.cpp(6,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Transform.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Game/MyGame.cpp')
+  
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Transform.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Game/MyGame.cpp')
+  
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Game\MyGame.cpp(7,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Physics\CircleCollider.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Game/MyGame.cpp')
+  
 C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\GameObject.h(99,1): warning C4715: 'GameObject::GetComponentOfType<Collider,void>': not all control paths return a value
   C++ Engine.vcxproj -> C:\Users\anton\Documents\GitHub\C-Engine\x64\Debug\C++ Engine.exe
