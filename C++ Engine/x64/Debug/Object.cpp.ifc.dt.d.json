@@ -1,10 +1,10 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\object.cpp",
+        "Source": "c:\\users\\anton\\documents\\github\\space partitioning\\c++ engine\\base\\object.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\object.h",
+            "c:\\users\\anton\\documents\\github\\space partitioning\\c++ engine\\base\\object.h",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\memory",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\yvals_core.h",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\vcruntime.h",

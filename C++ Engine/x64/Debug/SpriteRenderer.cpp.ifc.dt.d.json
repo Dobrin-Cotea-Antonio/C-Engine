@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\spriterenderer.cpp",
+        "Source": "c:\\users\\anton\\documents\\github\\space partitioning\\c++ engine\\base\\spriterenderer.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\spriterenderer.h",
-            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\component.h",
-            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\object.h",
+            "c:\\users\\anton\\documents\\github\\space partitioning\\c++ engine\\base\\spriterenderer.h",
+            "c:\\users\\anton\\documents\\github\\space partitioning\\c++ engine\\base\\component.h",
+            "c:\\users\\anton\\documents\\github\\space partitioning\\c++ engine\\base\\object.h",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\memory",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\yvals_core.h",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\vcruntime.h",
@@ -200,13 +200,13 @@
             "c:\\source\\vcpkg\\installed\\x64-windows\\include\\sfml\\graphics\\sprite.hpp",
             "c:\\source\\vcpkg\\installed\\x64-windows\\include\\sfml\\graphics\\text.hpp",
             "c:\\source\\vcpkg\\installed\\x64-windows\\include\\sfml\\graphics\\vertexbuffer.hpp",
-            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\texturecache.h",
-            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\gameobject.h",
+            "c:\\users\\anton\\documents\\github\\space partitioning\\c++ engine\\base\\texturecache.h",
+            "c:\\users\\anton\\documents\\github\\space partitioning\\c++ engine\\base\\gameobject.h",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\iostream",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\istream",
-            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\transform.h",
-            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\vec2.h",
-            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\game.h"
+            "c:\\users\\anton\\documents\\github\\space partitioning\\c++ engine\\base\\transform.h",
+            "c:\\users\\anton\\documents\\github\\space partitioning\\c++ engine\\base\\vec2.h",
+            "c:\\users\\anton\\documents\\github\\space partitioning\\c++ engine\\base\\game.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

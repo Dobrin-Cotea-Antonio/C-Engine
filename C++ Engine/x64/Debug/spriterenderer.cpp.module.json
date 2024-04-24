@@ -5,7 +5,7 @@
         {
             "primary-output": "x64\\Debug\\SpriteRenderer.obj",
             "outputs": [
-                "C:\\Users\\anton\\Documents\\GitHub\\C-Engine\\C++ Engine\\x64\\Debug\\vc143.pdb",
+                "C:\\Users\\anton\\Documents\\GitHub\\Space Partitioning\\C++ Engine\\x64\\Debug\\vc143.pdb",
                 "x64\\Debug\\"
             ],
             "requires": []

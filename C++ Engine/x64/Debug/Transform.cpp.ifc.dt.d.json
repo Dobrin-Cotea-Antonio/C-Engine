@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\transform.cpp",
+        "Source": "c:\\users\\anton\\documents\\github\\space partitioning\\c++ engine\\base\\transform.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\transform.h",
-            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\component.h",
-            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\object.h",
+            "c:\\users\\anton\\documents\\github\\space partitioning\\c++ engine\\base\\transform.h",
+            "c:\\users\\anton\\documents\\github\\space partitioning\\c++ engine\\base\\component.h",
+            "c:\\users\\anton\\documents\\github\\space partitioning\\c++ engine\\base\\object.h",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\memory",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\yvals_core.h",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\vcruntime.h",
@@ -87,7 +87,7 @@
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\xtimec.h",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\ctime",
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.22000.0\\ucrt\\time.h",
-            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\vec2.h",
+            "c:\\users\\anton\\documents\\github\\space partitioning\\c++ engine\\base\\vec2.h",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\iostream",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\istream",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\ostream",
@@ -117,7 +117,7 @@
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.22000.0\\ucrt\\locale.h",
             "c:\\source\\vcpkg\\installed\\x64-windows\\include\\sfml\\system\\vector2.hpp",
             "c:\\source\\vcpkg\\installed\\x64-windows\\include\\sfml\\system\\vector2.inl",
-            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\gameobject.h",
+            "c:\\users\\anton\\documents\\github\\space partitioning\\c++ engine\\base\\gameobject.h",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\vector",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\__msvc_bit_utils.hpp"
         ],

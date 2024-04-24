@@ -1,10 +1,10 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\timeclass.cpp",
+        "Source": "c:\\users\\anton\\documents\\github\\space partitioning\\c++ engine\\base\\timeclass.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\timeclass.h",
+            "c:\\users\\anton\\documents\\github\\space partitioning\\c++ engine\\base\\timeclass.h",
             "c:\\source\\vcpkg\\installed\\x64-windows\\include\\sfml\\graphics.hpp",
             "c:\\source\\vcpkg\\installed\\x64-windows\\include\\sfml\\window.hpp",
             "c:\\source\\vcpkg\\installed\\x64-windows\\include\\sfml\\system.hpp",

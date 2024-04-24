@@ -14,7 +14,7 @@ Game::Game(const Vec2 pWindowSize) {
 	timeClass = TimeClass::GetInstance();
 	inputManager = InputManager::GetInstance();
 	window = new sf::RenderWindow(sf::VideoMode(pWindowSize.x, pWindowSize.y), "Yes");
-	window->setFramerateLimit(60);
+	//window->setFramerateLimit(60);
 	window->setKeyRepeatEnabled(false);
 }
 

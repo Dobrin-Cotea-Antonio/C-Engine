@@ -1,7 +1,7 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\main.cpp",
+        "Source": "c:\\users\\anton\\documents\\github\\space partitioning\\c++ engine\\main.cpp",
         "ProvidedModule": "",
         "Includes": [
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\iostream",
@@ -199,12 +199,12 @@
             "c:\\source\\vcpkg\\installed\\x64-windows\\include\\sfml\\graphics\\sprite.hpp",
             "c:\\source\\vcpkg\\installed\\x64-windows\\include\\sfml\\graphics\\text.hpp",
             "c:\\source\\vcpkg\\installed\\x64-windows\\include\\sfml\\graphics\\vertexbuffer.hpp",
-            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\gameobject.h",
-            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\object.h",
-            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\vec2.h",
-            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\timeclass.h",
-            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\game.h",
-            "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\game\\mygame.h"
+            "c:\\users\\anton\\documents\\github\\space partitioning\\c++ engine\\base\\gameobject.h",
+            "c:\\users\\anton\\documents\\github\\space partitioning\\c++ engine\\base\\object.h",
+            "c:\\users\\anton\\documents\\github\\space partitioning\\c++ engine\\base\\vec2.h",
+            "c:\\users\\anton\\documents\\github\\space partitioning\\c++ engine\\base\\timeclass.h",
+            "c:\\users\\anton\\documents\\github\\space partitioning\\c++ engine\\base\\game.h",
+            "c:\\users\\anton\\documents\\github\\space partitioning\\c++ engine\\game\\mygame.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

@@ -1,22 +1,22 @@
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\AnimatedSpriteRenderer.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\AnimatedSpriteRenderer.obj
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\AnimationData.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\AnimationData.obj
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Component.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\Component.obj
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Game.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\Game.obj
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\GameObject.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\GameObject.obj
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\InputManager.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\InputManager.obj
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Object.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\Object.obj
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Scene.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\Scene.obj
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\SceneManager.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\SceneManager.obj
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\SpriteRenderer.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\SpriteRenderer.obj
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\TextureCache.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\TextureCache.obj
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\TimeClass.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\TimeClass.obj
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Transform.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\Transform.obj
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Base\Vec2.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\Vec2.obj
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Game\CollisionTest.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\CollisionTest.obj
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Game\MyGame.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\MyGame.obj
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Game\TestScene.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\TestScene.obj
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\main.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\main.obj
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Physics\CircleCollider.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\CircleCollider.obj
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Physics\Collider.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\Collider.obj
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Physics\CollisionInfo.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\CollisionInfo.obj
-C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\Physics\CollisionManager.cpp;C:\Users\anton\Documents\GitHub\C-Engine\C++ Engine\x64\Debug\CollisionManager.obj
+C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\Base\AnimatedSpriteRenderer.cpp;C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\x64\Debug\AnimatedSpriteRenderer.obj
+C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\Base\AnimationData.cpp;C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\x64\Debug\AnimationData.obj
+C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\Base\Component.cpp;C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\x64\Debug\Component.obj
+C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\Base\Game.cpp;C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\x64\Debug\Game.obj
+C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\Base\GameObject.cpp;C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\x64\Debug\GameObject.obj
+C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\Base\InputManager.cpp;C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\x64\Debug\InputManager.obj
+C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\Base\Object.cpp;C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\x64\Debug\Object.obj
+C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\Base\Scene.cpp;C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\x64\Debug\Scene.obj
+C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\Base\SceneManager.cpp;C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\x64\Debug\SceneManager.obj
+C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\Base\SpriteRenderer.cpp;C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\x64\Debug\SpriteRenderer.obj
+C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\Base\TextureCache.cpp;C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\x64\Debug\TextureCache.obj
+C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\Base\TimeClass.cpp;C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\x64\Debug\TimeClass.obj
+C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\Base\Transform.cpp;C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\x64\Debug\Transform.obj
+C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\Base\Vec2.cpp;C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\x64\Debug\Vec2.obj
+C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\Game\CollisionTest.cpp;C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\x64\Debug\CollisionTest.obj
+C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\Game\MyGame.cpp;C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\x64\Debug\MyGame.obj
+C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\Game\TestScene.cpp;C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\x64\Debug\TestScene.obj
+C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\main.cpp;C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\x64\Debug\main.obj
+C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\Physics\CircleCollider.cpp;C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\x64\Debug\CircleCollider.obj
+C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\Physics\Collider.cpp;C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\x64\Debug\Collider.obj
+C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\Physics\CollisionInfo.cpp;C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\x64\Debug\CollisionInfo.obj
+C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\Physics\CollisionManager.cpp;C:\Users\anton\Documents\GitHub\Space Partitioning\C++ Engine\x64\Debug\CollisionManager.obj

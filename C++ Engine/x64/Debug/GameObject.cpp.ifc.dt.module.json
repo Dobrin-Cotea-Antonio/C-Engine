@@ -1,7 +1,7 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\anton\\documents\\github\\c-engine\\c++ engine\\base\\gameobject.cpp",
+        "Source": "c:\\users\\anton\\documents\\github\\space partitioning\\c++ engine\\base\\gameobject.cpp",
         "ProvidedModule": "",
         "ImportedModules": [],
         "ImportedHeaderUnits": []
