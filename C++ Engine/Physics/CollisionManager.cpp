@@ -10,8 +10,11 @@ CollisionManager* CollisionManager::instance = nullptr;
 #pragma region Constructor/Destructor
 CollisionManager::CollisionManager() {
 	partitionedSpace = Vec2(Game::window->getSize().x, Game::window->getSize().y);
-	partitionRows = 4;
-	partitionCols = 4;
+	//partitionRows = 4;
+	//partitionCols = 4;
+
+	partitionRows = 10;
+	partitionCols = 10;
 
 	partitionCellSize = Vec2(partitionedSpace.x / partitionRows, partitionedSpace.y / partitionCols);
 
